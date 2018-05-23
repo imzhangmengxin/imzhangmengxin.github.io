@@ -4,57 +4,74 @@ date: 2018-05-22T14:24:38+08:00
 draft: false
 show_comments: false
 comment: false
+reward: false
 ---
 
 
 
-## Profile
- - Messiah，Male，90's
+## 关于博主
+ - 男，非典型处女座90后,从事数据工程相关工作
  - (+86) 18855530522
  - [zhangmengxin188@gmail.com](mailto:zhangmengxin188@gmail.com)
- - BA in Economics/Hohai University Wentian College (2010.Sep-2014.Jul)/International Economics And Trade
- - Employment Duration 3 yrs 
- - [中文简历](/about)
- - [Web Site](http://www.imzmx.win)
- - Hangchow City, Chekiang, China
+ - 经济学学士/河海大学文天学院
+ - 国家经济与贸易专业(2010-2014)
+ - 工作经验 3年以上
+ - [英文简历](/Resume)
+ - [个人网站](http://www.imzmx.win)
+ - 中国·杭州
 
-## Experience
-### BBB Financial Co Ltd
- Data Development Engineer(Sep 2016 – Present 1 yrs )
- - Data Platform Development Based on LAMP (Echarts Visualization Plugin)
- - Install Hadoop Environment and config
- - Automated Analysis Report
- - Abnormal Risk Control Monitoring 
- - The Data Mining Modeling etc
+## 工作经历
+### 某金融信息服务有限公司
+ - 技术部·数据开发工程师(2016.9 – 至今)
+  - 基于LAMP架构的数据平台开发
+  - Hadoop环节部署运维
+  - 自动化数据分析框架
+  - 异常风险监控
+  - 数据建模等等
+  - KVM集群部署管理
+  - 内网云搭建,DNS内网域名解析系统,内网邮件系统,VPN等
+  - 数据库服务器搭建运维
+  - 外部数据爬取基于scrapy框架
+  - ETL编写,数据库建模,实现,数据仓库建模实现,文档编写等
 
-### AAA Information Technology Co Ltd
-Data Analysis Engineer(Jul 2014 – Sep 2016 2 yrs )
+  
+### 上海舞九信息科技有限公司([59store](http://www.59store.com/))
+- 运营部·数据分析师(2014.9 – 2015.3 )
 
-1. Analysis
- - Opeartion Analysis Report : General Index Analysis
- - The Annual User Loss Analysis (Side B): Distribution Density Analysis
- - User Lifecycle (Side C): Distribution Density Analysis
- - Abnormal User Analysis (Side B)：Distribution Density Analysis
- - Data Visualization Project
- - User Portrait Description
+1. 分析篇
+ - 运营分析报告:一般指标分析法
+ - 年度用户留存分析 (B端): 密度分布分析法
+ - 用户生命周期 (C端): 密度分布
+ - 用户异常风险分析 (刷单)：离群点检验
+ - 数据可视化项目(Tableau)
+ - 用户画像描述:标签,权重
 
-1. Project
- - On Win Server2012, Finish Demand Department Daily System with Tableau Server Combined with Mysql
- - On Centos, Using the Crontab and R complete Automated Email System
- - Using Mysql Such as Procedures, Events to do Abnormal Data Alarm, Etc
- - Server Daily Operational etc
+- 研发部·数据挖掘工程师(2015.3 – 2016.9)
 
-## Technical
-1. SQL（expert）
-1. R（proficient） 
-1. Python （proficient） 
-1. Linux （proficient） 
-1. PHP （proficient） 
-1. Git （average）
-1. Node.js （average）
-1. HTML CSS JS（average）
-1. MongoDB （basic）
-1. Excel （expert）
-1. Tableau （proficient）
-1. Hadoop （basic）
-1. Hive （average）
+1. 工程篇
+ - 在win server 2012上部署Tableau服务及Mysql服务为业务部门提供自动化分析日报
+ - 在Centos虚拟机上部署R语言环境结合R开源包及crontab实现自动化邮件功能
+ - 使用Mysql的事件,存储过程等实现事务日志,异常报警功能
+ - 服务器日常运维等
+
+## 技能清单
+| 技能| 使用频率<sup>[[1]](#ref1)</sup> |
+| :---: | :---:|
+|  `SQL` | 日常 |
+|  `R`  | 经常 |
+| `Python` | 经常 | 
+| `Linux` | 日常 |
+| `PHP`  | 经常 |
+| `Git`  | 日常 |
+| `Node.js` | 偶尔 |
+| `HTML CSS JS` | 一般 |
+| `MongoDB`  | 一般 |
+| `Office` | 经常 |
+| `Tableau`  | 经常 |
+| `Hadoop` | 一般 |
+| `Hive` | 一般 |
+| `Golang` |偶尔|
+
+1. <a id="ref1"> 日常:每天使用; 经常:每周使用; 一般:每月使用 ;偶尔:距离最近一次使用超过一个月 </a>
+
+> 以上评价依据博主个人使用感官
