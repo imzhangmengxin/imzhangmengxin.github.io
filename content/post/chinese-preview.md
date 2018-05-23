@@ -3,8 +3,8 @@ title: "[中文] 《长恨歌》"
 date: 2017-08-30T01:37:56+08:00
 lastmod: 2017-08-30T01:37:56+08:00
 draft: false
-tags: ["test"]
-categories: ["test"]
+tags: ["中文","简历","resume"]
+categories: ["中文","简历"]
 author: "Wikipedia"
 hiddenFromHomePage: true
 contentCopyright: '<a rel="license noopener" href="https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License" target="_blank">Creative Commons Attribution-ShareAlike License</a>'

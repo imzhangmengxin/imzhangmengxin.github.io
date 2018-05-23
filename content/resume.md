@@ -3,8 +3,6 @@ date: "2015-10-25T08:36:54-07:00"
 title: "Resume"
 lastmod: 2017-08-30T01:37:56+08:00
 draft: false
-tags: ["Resume"]
-categories: ["Resume"]
 comment: false
 reward: false
 ---
