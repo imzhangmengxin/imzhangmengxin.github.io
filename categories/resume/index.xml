@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Resume on imzmx - A blog for messiah who committed to data engineering related work</title>
-    <link>https://imzhangmengxin.github.io/categories/resume/</link>
+    <link>www.imzmx.win/categories/resume/</link>
     <description>Recent content in Resume on imzmx - A blog for messiah who committed to data engineering related work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>ZMX</copyright>
     <lastBuildDate>Sun, 25 Oct 2015 08:36:54 -0700</lastBuildDate>
     
-	<atom:link href="https://imzhangmengxin.github.io/categories/resume/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="www.imzmx.win/categories/resume/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Resume</title>
-      <link>https://imzhangmengxin.github.io/post/first/</link>
+      <link>www.imzmx.win/post/first/</link>
       <pubDate>Sun, 25 Oct 2015 08:36:54 -0700</pubDate>
       
-      <guid>https://imzhangmengxin.github.io/post/first/</guid>
+      <guid>www.imzmx.win/post/first/</guid>
       <description>Profile Messiah，Male，90&amp;rsquo;s (+86) 18855530522 zhangmengxin188@gmail.com BA in Economics/Hohai University Wentian College (2010.Sep-2014.Jul)/International Economics And Trade Employment Duration 3 yrs 中文简历 Web Site Hangchow City, Chekiang, China Experience BBB Financial Co Ltd Data Development Engineer(Sep 2016 – Present 1 yrs ) - Data Platform Development Based</description>
     </item>
     

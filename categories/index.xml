@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on imzmx - A blog for messiah who committed to data engineering related work</title>
-    <link>https://imzhangmengxin.github.io/categories/</link>
+    <link>www.imzmx.win/categories/</link>
     <description>Recent content in Categories on imzmx - A blog for messiah who committed to data engineering related work</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>ZMX</copyright>
     
-	<atom:link href="https://imzhangmengxin.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="www.imzmx.win/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Resume</title>
-      <link>https://imzhangmengxin.github.io/categories/resume/</link>
+      <link>www.imzmx.win/categories/resume/</link>
       <pubDate>Sun, 25 Oct 2015 08:36:54 -0700</pubDate>
       
-      <guid>https://imzhangmengxin.github.io/categories/resume/</guid>
+      <guid>www.imzmx.win/categories/resume/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>https://imzhangmengxin.github.io/categories/test/</link>
+      <link>www.imzmx.win/categories/test/</link>
       <pubDate>Wed, 23 Aug 2017 18:03:09 +0800</pubDate>
       
-      <guid>https://imzhangmengxin.github.io/categories/test/</guid>
+      <guid>www.imzmx.win/categories/test/</guid>
       <description></description>
     </item>
     
     <item>
       <title>中文</title>
-      <link>https://imzhangmengxin.github.io/categories/%E4%B8%AD%E6%96%87/</link>
+      <link>www.imzmx.win/categories/%E4%B8%AD%E6%96%87/</link>
       <pubDate>Mon, 21 May 2018 13:49:58 +0800</pubDate>
       
-      <guid>https://imzhangmengxin.github.io/categories/%E4%B8%AD%E6%96%87/</guid>
+      <guid>www.imzmx.win/categories/%E4%B8%AD%E6%96%87/</guid>
       <description></description>
     </item>
     
     <item>
       <title>简历</title>
-      <link>https://imzhangmengxin.github.io/categories/%E7%AE%80%E5%8E%86/</link>
+      <link>www.imzmx.win/categories/%E7%AE%80%E5%8E%86/</link>
       <pubDate>Mon, 21 May 2018 13:49:58 +0800</pubDate>
       
-      <guid>https://imzhangmengxin.github.io/categories/%E7%AE%80%E5%8E%86/</guid>
+      <guid>www.imzmx.win/categories/%E7%AE%80%E5%8E%86/</guid>
       <description></description>
     </item>
     
