@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: www.imzmx.win/sitemap.xml
+Sitemap: http://www.imzmx.win/sitemap.xml
