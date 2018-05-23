@@ -14,7 +14,7 @@ reward: false
  - (+86) 18855530522
  - [zhangmengxin188@gmail.com](mailto:zhangmengxin188@gmail.com)
  - 经济学学士/河海大学文天学院
- - 国家经济与贸易专业(2010-2014)
+ - 国际经济与贸易专业(2010-2014)
  - 工作经验 3年以上
  - [英文简历](/resume)
  - [个人网站](http://www.imzmx.win)

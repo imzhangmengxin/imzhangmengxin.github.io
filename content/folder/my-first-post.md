@@ -3,8 +3,6 @@ title: "My First Post"
 date: 2018-05-21T13:49:58+08:00
 draft: false
 comment: true
-tags: ["Resume", "简历","中文"]
-categories: ["简历","中文"]
 show_comments: true
 ---
 
