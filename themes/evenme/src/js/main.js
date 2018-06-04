@@ -11,6 +11,8 @@ $(document).ready(function () {
 
 Even.flowchart()
 Even.sequence()
+/*add by messiah*/
+Even.mermaid()
 
 hljs.initHighlighting()
 Even.highlight()

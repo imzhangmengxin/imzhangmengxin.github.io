@@ -1,6 +1,6 @@
 baseURL = "http://www.imzmx.win/"
-languageCode = "en"
-defaultContentLanguage = "zh-cn"                             # en / zh-cn / ... (This field determines which i18n file to use)
+languageCode = "zh-cn"
+defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
 title = "imzmx - A blog for messiah who committed to data engineering related work"
 enableRobotsTXT = true
 enableEmoji = true
@@ -121,6 +121,10 @@ copyright = "ZMX"            # default: author.name ↓        # 默认为下面
   [params.flowchartDiagrams]# see https://blog.olowolo.com/example-site/post/js-flowchart-diagrams/
     enable = false
     options = ""
+
+  [params.mermaidDiagrams] # see https://blog.olowolo.com/example-site/post/js-sequence-diagrams/
+    enable = false
+    options = ""            # default: "{theme: 'simple'}"
 
   [params.sequenceDiagrams] # see https://blog.olowolo.com/example-site/post/js-sequence-diagrams/
     enable = false
