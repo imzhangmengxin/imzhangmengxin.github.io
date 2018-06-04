@@ -2,21 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on imzmx - A blog for messiah who committed to data engineering related work</title>
-    <link>https://www.imzmx.win/categories/</link>
+    <link>http://www.imzmx.win/categories/</link>
     <description>Recent content in Categories on imzmx - A blog for messiah who committed to data engineering related work</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <copyright>ZMX</copyright>
     
-	<atom:link href="https://www.imzmx.win/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.imzmx.win/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Documents</title>
+      <link>http://www.imzmx.win/categories/documents/</link>
+      <pubDate>Tue, 14 Mar 2017 21:57:45 +0800</pubDate>
+      
+      <guid>http://www.imzmx.win/categories/documents/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Test</title>
-      <link>https://www.imzmx.win/categories/test/</link>
+      <link>http://www.imzmx.win/categories/test/</link>
       <pubDate>Wed, 23 Aug 2017 18:03:09 +0800</pubDate>
       
-      <guid>https://www.imzmx.win/categories/test/</guid>
+      <guid>http://www.imzmx.win/categories/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uml</title>
+      <link>http://www.imzmx.win/categories/uml/</link>
+      <pubDate>Sat, 04 Mar 2017 21:57:45 +0800</pubDate>
+      
+      <guid>http://www.imzmx.win/categories/uml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>学习笔记</title>
+      <link>http://www.imzmx.win/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sat, 04 Mar 2017 21:57:45 +0800</pubDate>
+      
+      <guid>http://www.imzmx.win/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
       <description></description>
     </item>
     

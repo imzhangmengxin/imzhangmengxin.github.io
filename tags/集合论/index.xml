@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>集合论 on imzmx - A blog for messiah who committed to data engineering related work</title>
+    <link>http://www.imzmx.win/tags/%E9%9B%86%E5%90%88%E8%AE%BA/</link>
+    <description>Recent content in 集合论 on imzmx - A blog for messiah who committed to data engineering related work</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>ZMX</copyright>
+    <lastBuildDate>Sat, 04 Mar 2017 21:57:45 +0800</lastBuildDate>
+    
+	<atom:link href="http://www.imzmx.win/tags/%E9%9B%86%E5%90%88%E8%AE%BA/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>概率论基础-补集</title>
+      <link>http://www.imzmx.win/post/%E6%A6%82%E7%8E%87%E8%AE%BA%E5%9F%BA%E7%A1%80-%E8%A1%A5%E9%9B%86/</link>
+      <pubDate>Sat, 04 Mar 2017 21:57:45 +0800</pubDate>
+      
+      <guid>http://www.imzmx.win/post/%E6%A6%82%E7%8E%87%E8%AE%BA%E5%9F%BA%E7%A1%80-%E8%A1%A5%E9%9B%86/</guid>
+      <description>在集合论和数学的其他分支中，存在补集的两种定义：相对补集和绝对补集。 相对补集 若$A$和$B$是集合则$A$在$B$中的相对补集是由所有属于$</description>
+    </item>
+    
+  </channel>
+</rss>

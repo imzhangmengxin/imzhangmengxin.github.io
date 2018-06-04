@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>imzmx - A blog for messiah who committed to data engineering related work</title>
-    <link>https://www.imzmx.win/</link>
+    <link>http://www.imzmx.win/</link>
     <description>Recent content on imzmx - A blog for messiah who committed to data engineering related work</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <copyright>ZMX</copyright>
     <lastBuildDate>Wed, 23 Aug 2017 18:03:09 +0800</lastBuildDate>
     
-	<atom:link href="https://www.imzmx.win/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.imzmx.win/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Theme preview</title>
-      <link>https://www.imzmx.win/post/even-preview/</link>
+      <link>http://www.imzmx.win/post/even-preview/</link>
       <pubDate>Wed, 23 Aug 2017 18:03:09 +0800</pubDate>
       
-      <guid>https://www.imzmx.win/post/even-preview/</guid>
+      <guid>http://www.imzmx.win/post/even-preview/</guid>
       <description>Copy from 《Hugo 主题 Nuo 文章样式预览》 这篇文章集中说明主题所支持的 Markdown 语法和 Hugo Shortcodes 插件，你也可以在这里预览到他们的样子。如果你不喜欢某些样式，可以去</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://www.imzmx.win/about/</link>
+      <link>http://www.imzmx.win/about/</link>
       <pubDate>Tue, 22 May 2018 14:24:38 +0800</pubDate>
       
-      <guid>https://www.imzmx.win/about/</guid>
+      <guid>http://www.imzmx.win/about/</guid>
       <description>关于博主 男，非典型处女座90后,从事数据工程相关工作 (+86) 18855530522 zhangmengxin188@gmail.com 经济学学士/河海大学文天学院 国际经济与贸易专业(2010-2014) 工作经验 3年以</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>https://www.imzmx.win/folder/my-first-post/</link>
+      <link>http://www.imzmx.win/folder/my-first-post/</link>
       <pubDate>Mon, 21 May 2018 13:49:58 +0800</pubDate>
       
-      <guid>https://www.imzmx.win/folder/my-first-post/</guid>
+      <guid>http://www.imzmx.win/folder/my-first-post/</guid>
       <description>Profile Messiah，Male，90&amp;rsquo;s (+86) 18855530522 zhangmengxin188@gmail.com BA in Economics/Hohai University Wentian College (2010.Sep-2014.Jul)/International Economics And Trade Employment Duration 3 yrs 中文简历 Web Site Hangchow City, Chekiang, China Experience BBB Financial Co Ltd Data Development Engineer(Sep 2016 – Present 1 yrs ) - Data Platform Development Based</description>
     </item>
     
     <item>
       <title>This is a hidden post.</title>
-      <link>https://www.imzmx.win/post/hidden-post/</link>
+      <link>http://www.imzmx.win/post/hidden-post/</link>
       <pubDate>Thu, 08 Mar 2018 17:40:19 +0800</pubDate>
       
-      <guid>https://www.imzmx.win/post/hidden-post/</guid>
+      <guid>http://www.imzmx.win/post/hidden-post/</guid>
       <description>&lt;p&gt;This post is hidden from the home page.&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
@@ -52,38 +52,74 @@
     
     <item>
       <title>[English] Creating a New Theme</title>
-      <link>https://www.imzmx.win/post/english-preview/</link>
+      <link>http://www.imzmx.win/post/english-preview/</link>
       <pubDate>Thu, 31 Aug 2017 15:43:48 +0800</pubDate>
       
-      <guid>https://www.imzmx.win/post/english-preview/</guid>
+      <guid>http://www.imzmx.win/post/english-preview/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>[日本語] 敬語体系</title>
-      <link>https://www.imzmx.win/post/japanese-preview/</link>
+      <link>http://www.imzmx.win/post/japanese-preview/</link>
       <pubDate>Wed, 30 Aug 2017 01:53:34 +0800</pubDate>
       
-      <guid>https://www.imzmx.win/post/japanese-preview/</guid>
+      <guid>http://www.imzmx.win/post/japanese-preview/</guid>
       <description>日本語の敬語体系は、一般に、大きく尊敬語・謙譲語・丁寧語に分類される。文化審議会国語分科会は、2007年2月に「敬語の指針」を答申し、これに</description>
     </item>
     
     <item>
       <title>[中文] 《长恨歌》</title>
-      <link>https://www.imzmx.win/post/chinese-preview/</link>
+      <link>http://www.imzmx.win/post/chinese-preview/</link>
       <pubDate>Wed, 30 Aug 2017 01:37:56 +0800</pubDate>
       
-      <guid>https://www.imzmx.win/post/chinese-preview/</guid>
+      <guid>http://www.imzmx.win/post/chinese-preview/</guid>
       <description>《长恨歌》是中国唐朝诗人白居易的一首长篇叙事诗。 第一段：贵妃受宠爱 汉皇重色思倾国，御宇多年求不得。杨家有女初长成，养在深闺人未识。 天生丽质难</description>
     </item>
     
     <item>
+      <title>Syntax-MathJax</title>
+      <link>http://www.imzmx.win/post/syntax-mathjax/</link>
+      <pubDate>Tue, 14 Mar 2017 21:57:45 +0800</pubDate>
+      
+      <guid>http://www.imzmx.win/post/syntax-mathjax/</guid>
+      <description>1.希腊字母 Greek letters MathJax-syntax Greek letters MathJax-syntax Latin letters MathJax-syntax $\alpha$ $\alpha$ $A$ $A$ $\beta$ $\beta$ $B$ $B$ $\gamma$ $\gamma$ $\Gamma$ $\Gamma$ $\delta$ $\delta$ $\Delta$ $\Delta$ $\epsilon$ $\epsilon$ $E$ $E$ $\varepsilon$ $\varepsilon$ $\zeta$ $\zeta$ $Z$ $Z$ $\eta$ $\eta$ $H$ $H$ $\theta$ $\theta$ $\Theta$ $\Theta$ $\vartheta$ $\vartheta$ $\iota$ $\iota$ $I$ $I$ $\kappa$ $\kappa$ $K$ $K$ $\lambda$ $\lambda$ $\Lambda$ $\Lambda$ $\mu$ $\mu$ $M$ $M$ $\nu$ $\nu$ $N$</description>
+    </item>
+    
+    <item>
+      <title>Syntax-Markdown</title>
+      <link>http://www.imzmx.win/post/syntax-markdown/</link>
+      <pubDate>Sat, 04 Mar 2017 21:57:45 +0800</pubDate>
+      
+      <guid>http://www.imzmx.win/post/syntax-markdown/</guid>
+      <description>1.标题 H1 H2 H3 H4 H5 H6 2. 段落 使用单星号 * 或者单下划线 _ 标记 斜体强调 或者 斜体强调 使用两个星号 ** 或者两个下划线 __ 标记 加粗强调 或者 加粗强调 引号和下划</description>
+    </item>
+    
+    <item>
+      <title>数仓模型</title>
+      <link>http://www.imzmx.win/post/qnz_data_uml/</link>
+      <pubDate>Sat, 04 Mar 2017 21:57:45 +0800</pubDate>
+      
+      <guid>http://www.imzmx.win/post/qnz_data_uml/</guid>
+      <description>一元结构 title: 一元架构 participant 生产库 as A note left of A :数据实时,查询压力大 A-&amp;gt;A :结果表计算完成ETL过程 二元结构 title:二元架构 participant 线上库 as A participant 离线库 as B</description>
+    </item>
+    
+    <item>
+      <title>概率论基础-补集</title>
+      <link>http://www.imzmx.win/post/%E6%A6%82%E7%8E%87%E8%AE%BA%E5%9F%BA%E7%A1%80-%E8%A1%A5%E9%9B%86/</link>
+      <pubDate>Sat, 04 Mar 2017 21:57:45 +0800</pubDate>
+      
+      <guid>http://www.imzmx.win/post/%E6%A6%82%E7%8E%87%E8%AE%BA%E5%9F%BA%E7%A1%80-%E8%A1%A5%E9%9B%86/</guid>
+      <description>在集合论和数学的其他分支中，存在补集的两种定义：相对补集和绝对补集。 相对补集 若$A$和$B$是集合则$A$在$B$中的相对补集是由所有属于$</description>
+    </item>
+    
+    <item>
       <title>Shortcodes</title>
-      <link>https://www.imzmx.win/post/shortcodes/</link>
+      <link>http://www.imzmx.win/post/shortcodes/</link>
       <pubDate>Tue, 30 Aug 2016 16:01:23 +0800</pubDate>
       
-      <guid>https://www.imzmx.win/post/shortcodes/</guid>
+      <guid>http://www.imzmx.win/post/shortcodes/</guid>
       <description>&lt;h1 id=&#34;center-right-left&#34;&gt;center, right, left&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code&gt;## default
@@ -110,19 +146,19 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     
     <item>
       <title>Resume</title>
-      <link>https://www.imzmx.win/resume/</link>
+      <link>http://www.imzmx.win/resume/</link>
       <pubDate>Sun, 25 Oct 2015 08:36:54 -0700</pubDate>
       
-      <guid>https://www.imzmx.win/resume/</guid>
+      <guid>http://www.imzmx.win/resume/</guid>
       <description>Profile Messiah，Male，90&amp;rsquo;s (+86) 18855530522 zhangmengxin188@gmail.com BA in Economics/Hohai University Wentian College (2010.Sep-2014.Jul)/International Economics And Trade Employment Duration 3 yrs 中文简历 Web Site Hangchow City, Chekiang, China Experience BBB Financial Co Ltd Data Development Engineer(Sep 2016 – Present 1 yrs ) - Data Platform Development Based</description>
     </item>
     
     <item>
       <title>Syntax Highlighting</title>
-      <link>https://www.imzmx.win/post/syntax-highlighting/</link>
+      <link>http://www.imzmx.win/post/syntax-highlighting/</link>
       <pubDate>Sun, 30 Aug 2015 16:01:23 +0800</pubDate>
       
-      <guid>https://www.imzmx.win/post/syntax-highlighting/</guid>
+      <guid>http://www.imzmx.win/post/syntax-highlighting/</guid>
       <description>&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;function helloWorld () {
   alert(&amp;quot;Hello, World!&amp;quot;)
 }
@@ -133,10 +169,10 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     
     <item>
       <title>JS Flowchart Diagrams</title>
-      <link>https://www.imzmx.win/post/js-flowchart-diagrams/</link>
+      <link>http://www.imzmx.win/post/js-flowchart-diagrams/</link>
       <pubDate>Wed, 04 Mar 2015 21:57:50 +0800</pubDate>
       
-      <guid>https://www.imzmx.win/post/js-flowchart-diagrams/</guid>
+      <guid>http://www.imzmx.win/post/js-flowchart-diagrams/</guid>
       <description>&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-flowchart&#34;&gt;st=&amp;gt;start: Start|past:&amp;gt;http://www.google.com[blank]
@@ -161,10 +197,10 @@ c2(no)-&amp;gt;op2-&amp;gt;e
     
     <item>
       <title>JS Sequence Diagrams</title>
-      <link>https://www.imzmx.win/post/js-sequence-diagrams/</link>
+      <link>http://www.imzmx.win/post/js-sequence-diagrams/</link>
       <pubDate>Wed, 04 Mar 2015 21:57:45 +0800</pubDate>
       
-      <guid>https://www.imzmx.win/post/js-sequence-diagrams/</guid>
+      <guid>http://www.imzmx.win/post/js-sequence-diagrams/</guid>
       <description>&lt;h2 id=&#34;usage&#34;&gt;Usage&lt;/h2&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-sequence&#34;&gt;Andrew-&amp;gt;China: Says Hello

@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Syntax-Markdown - imzmx - A blog for messiah who committed to data engineering related work</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Messiah" />
+  <meta name="description" content="1.标题 H1 H2 H3 H4 H5 H6 2. 段落 使用单星号 * 或者单下划线 _ 标记 斜体强调 或者 斜体强调 使用两个星号 ** 或者两个下划线 __ 标记 加粗强调 或者 加粗强调 引号和下划" />
+
+  <meta name="keywords" content="Imzmx, theme, messiah" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+<link rel="canonical" href="http://www.imzmx.win/post/syntax-markdown/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<link href="/dist/even.min.css?v=3.1.1" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Syntax-Markdown" />
+<meta property="og:description" content="1.标题 H1 H2 H3 H4 H5 H6 2. 段落 使用单星号 * 或者单下划线 _ 标记 斜体强调 或者 斜体强调 使用两个星号 ** 或者两个下划线 __ 标记 加粗强调 或者 加粗强调 引号和下划" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.imzmx.win/post/syntax-markdown/" />
+
+
+
+<meta property="article:published_time" content="2017-03-04T21:57:45&#43;08:00"/>
+
+<meta property="article:modified_time" content="2017-09-30T01:37:56&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Syntax-Markdown">
+<meta itemprop="description" content="1.标题 H1 H2 H3 H4 H5 H6 2. 段落 使用单星号 * 或者单下划线 _ 标记 斜体强调 或者 斜体强调 使用两个星号 ** 或者两个下划线 __ 标记 加粗强调 或者 加粗强调 引号和下划">
+
+
+<meta itemprop="datePublished" content="2017-03-04T21:57:45&#43;08:00" />
+<meta itemprop="dateModified" content="2017-03-04T21:57:45&#43;08:00" />
+<meta itemprop="wordCount" content="808">
+
+
+
+<meta itemprop="keywords" content="Markdown,Syntax," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Syntax-Markdown"/>
+<meta name="twitter:description" content="1.标题 H1 H2 H3 H4 H5 H6 2. 段落 使用单星号 * 或者单下划线 _ 标记 斜体强调 或者 斜体强调 使用两个星号 ** 或者两个下划线 __ 标记 加粗强调 或者 加粗强调 引号和下划"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Messiah</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Messiah</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Syntax-Markdown</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2017-03-04 </span>
+        <div class="post-category">
+            
+              <a href="/categories/documents/"> Documents </a>
+            
+          </div>
+        <span class="more-meta"> 808 words </span>
+        <span class="more-meta"> 2 mins read </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#1-标题">1.标题</a></li>
+</ul></li>
+<li><a href="#h1">H1</a>
+<ul>
+<li><a href="#h2">H2</a>
+<ul>
+<li><a href="#h3">H3</a>
+<ul>
+<li><a href="#h4">H4</a>
+<ul>
+<li><a href="#h5">H5</a>
+<ul>
+<li><a href="#h6">H6</a></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li><a href="#2-段落">2. 段落</a></li>
+<li><a href="#3-列表">3. 列表</a>
+<ul>
+<li><a href="#3-1-无序列表">3.1 无序列表</a></li>
+<li><a href="#3-2-有序列表">3.2 有序列表</a></li>
+<li><a href="#3-3-定义列表">3.3 定义列表</a></li>
+<li><a href="#3-4-任务列表">3.4 任务列表</a></li>
+</ul></li>
+<li><a href="#section-05">4. 引用</a></li>
+<li><a href="#5-代码">5. 代码</a></li>
+<li><a href="#6-分割线">6. 分割线</a></li>
+<li><a href="#7-图片">7. 图片</a></li>
+<li><a href="#8-表格">8. 表格</a></li>
+<li><a href="#9-数学公式">9. 数学公式</a></li>
+<li><a href="#10-网易云音乐">10. 网易云音乐</a></li>
+<li><a href="#11-youtube">11. YouTube</a></li>
+<li><a href="#参考资料">参考资料</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      
+
+<h2 id="1-标题">1.标题</h2>
+
+<h1 id="h1">H1</h1>
+
+<h2 id="h2">H2</h2>
+
+<h3 id="h3">H3</h3>
+
+<h4 id="h4">H4</h4>
+
+<h5 id="h5">H5</h5>
+
+<h6 id="h6">H6</h6>
+
+<h2 id="2-段落">2. 段落</h2>
+
+<p>使用单星号 <code>*</code> 或者单下划线 <code>_</code> 标记 <em>斜体强调</em> 或者 <em>斜体强调</em></p>
+
+<p>使用两个星号 <code>**</code> 或者两个下划线 <code>__</code> 标记 <strong>加粗强调</strong> 或者 <strong>加粗强调</strong></p>
+
+<p>引号和下划线可叠加使用 → <strong>只是加粗 <em>斜体并加粗</em></strong></p>
+
+<p>使用两个波浪线 <code>~~</code> 标记 <del>已删除文字</del></p>
+
+<p>行内代码使用反引号: ` 标记 →<code>print(&quot;hello world&quot;)</code></p>
+
+<p>填充文字暂无 <code>Markdown</code> 标记，直接使用 <code>HTML</code> 标签 <code>&lt;ins&gt;&lt;/ins&gt;</code> 标记 <ins>填充文字</ins></p>
+
+<p>使用<code>&lt;sup&gt;&lt;/sup&gt;</code> 上标 X<sup>2</sup> /  <code>&lt;sub&gt;&lt;/sub&gt;</code> 下标 X<sub>2</sub></p>
+
+<p>使用<code>&lt;kbd&gt;&lt;/kbd&gt;</code>按键 <kbd>Alt</kbd></p>
+
+<p>外链 <a href="https://www.imzmx.win">I&rsquo;m ZMX Blog</a></p>
+
+<p>页面内段落 <a href="#section-05">引用</a></p>
+
+<p><em>Notice：你可以通过 <code>{#section-id}</code> 方式自定义段落锚点</em></p>
+
+<p>参考资料 <sup><a href="#ref01">[1]</a></sup><sup><a href="#ref02">[2]</a></sup></p>
+
+<h2 id="3-列表">3. 列表</h2>
+
+<p>以下的无序、有序和任务列表均支持二级嵌套，不建议使用二级以上嵌套。</p>
+
+<h3 id="3-1-无序列表">3.1 无序列表</h3>
+
+<ul>
+<li>无序列表
+
+<ul>
+<li>嵌套的无序列表</li>
+<li>嵌套的无序列表</li>
+<li>嵌套的无序列表</li>
+</ul></li>
+<li>无序列表
+
+<ol>
+<li>嵌套的有序列表</li>
+<li>嵌套的有序列表</li>
+<li>嵌套的有序列表</li>
+</ol></li>
+<li>无序列表
+
+<ul>
+<li>嵌套的无序列表</li>
+<li>嵌套的无序列表</li>
+<li>嵌套的无序列表</li>
+</ul></li>
+</ul>
+
+<h3 id="3-2-有序列表">3.2 有序列表</h3>
+
+<ol>
+<li>有序列表
+
+<ol>
+<li>嵌套的有序列表</li>
+<li>嵌套的有序列表</li>
+<li>嵌套的有序列表</li>
+</ol></li>
+<li>有序列表
+
+<ul>
+<li>嵌套的无序列表</li>
+<li>嵌套的无序列表</li>
+<li>嵌套的无序列表</li>
+</ul></li>
+<li>有序列表
+
+<ul>
+<li>嵌套的无序列表</li>
+<li>嵌套的无序列表</li>
+<li>嵌套的无序列表</li>
+</ul></li>
+</ol>
+
+<h3 id="3-3-定义列表">3.3 定义列表</h3>
+
+<dl>
+<dt>CSS</dt>
+<dd>层叠样式表</dd>
+</dl>
+
+<h3 id="3-4-任务列表">3.4 任务列表</h3>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> 个人blog迁移
+
+<ul class="task-list">
+<li><label><input type="checkbox" checked disabled class="task-list-item"> blog引擎选择</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 主题选择</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 框架适配</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 一些错误修正</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 主要博文转换迁移</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 其他迁移</label></li>
+</ul></label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 六月学习计划
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> 概率论数理统计基础回顾</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> 数据处理语言工具熟悉</label></li>
+<li><label><input type="checkbox" checked disabled class="task-list-item"> 相关工具安装</label></li>
+</ul></label></li>
+</ul>
+
+<h2 id="section-05">4. 引用</h2>
+
+<blockquote>
+<p>苟日新，日日新，又日新。</p>
+
+<p><cite>&ndash; 商成汤《盘铭》</cite></p>
+</blockquote>
+
+<h2 id="5-代码">5. 代码</h2>
+
+<p>以本站的一段 <code>python</code> 代码做演示。</p>
+
+<pre><code class="language-python"># -*- coding: utf-8 -*-
+#!/usr/bin/env python
+def triangles():
+    L = [1]
+    while True:
+        yield L
+        L.append(0)
+        L = [L[i - 1] + L[i] for i in range(len(L))]
+</code></pre>
+
+<h2 id="6-分割线">6. 分割线</h2>
+
+<hr />
+
+<h2 id="7-图片">7. 图片</h2>
+
+<p>不带标题的图片，如下图👇</p>
+
+<p><img src="https://static.oschina.net/uploads/space/2017/0917/230003_krQT_2421622.png" alt="数据架构图" title="datauml.png" /></p>
+
+<p>带标题的图片，如下图👇</p>
+
+
+<figure class="center">
+    
+        <img src="https://static.oschina.net/uploads/space/2017/0917/230003_krQT_2421622.png" alt="datum" />
+    
+    
+    <figcaption>
+        <h4>数据架构图</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+<h2 id="8-表格">8. 表格</h2>
+
+<p>使用 <code>Markdown</code> 画的表格，如下表👇</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Tables</th>
+<th align="center">Are</th>
+<th align="right">Cool</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">col 3 is</td>
+<td align="center">right-aligned</td>
+<td align="right">$1600</td>
+</tr>
+
+<tr>
+<td align="left">col 2 is</td>
+<td align="center">centered</td>
+<td align="right">$12</td>
+</tr>
+
+<tr>
+<td align="left">zebra stripes</td>
+<td align="center">are neat</td>
+<td align="right">$1</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="9-数学公式">9. 数学公式</h2>
+
+<p>主题使用了 <a href="https://www.mathjax.org/">MathJax</a> 开源库来实现对数学公式的支持，使用 <code>$$</code> 标记。</p>
+
+<p>$$ \sum_{i=1}^n \frac{1}{i^2} $$</p>
+
+<h2 id="10-网易云音乐">10. 网易云音乐</h2>
+
+<p>主题文章中可以轻松插入 <a href="https://music.163.com/">网易云音乐</a> 的指定音乐，你可以根据需要将音乐设置为自动播放，在主题目录 <code>layouts/shortcodes</code> 文件夹下的 <code>music.html</code> 对该标签进行定义。</p>
+
+  <iframe style="max-width: 100%"
+      class="music163"
+      frameborder="no"
+      border="0"
+      marginwidth="0"
+      marginheight="0"
+      width="330"
+      height="86"
+      src="//music.163.com/outchain/player?type=2&id=26883589&auto=0&height=66">
+    </iframe>
+
+<h2 id="11-youtube">11. YouTube</h2>
+
+<p>由于不明原因可能无法播放。</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/zz-H7G3Zi5c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0" title="YouTube Video"></iframe>
+ </div>
+
+
+<h2 id="参考资料">参考资料</h2>
+
+<ol>
+<li><a id="ref01"><a href="https://en.wikipedia.org/wiki/Markdown">Markdown wikipedia</a></a></li>
+<li><a id="ref02"><a href="https://daringfireball.net/projects/markdown/syntax">Markdown 语法手册</a></a></li>
+</ol>
+
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Messiah</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2017-09-30</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">Reward</label>
+  <div class="qr-code">
+    
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/img/reward/wechat0.png">
+        <span>wechat</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/img/reward/alipay0.png">
+        <span>alipay</span>
+      </label>
+  </div>
+</div>
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/markdown/">Markdown</a>
+          
+          <a href="/tags/syntax/">Syntax</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/syntax-mathjax/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Syntax-MathJax</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/qnz_data_uml/">
+            <span class="next-text nav-default">数仓模型</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'imzmx-1';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:zmxiam@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://stackoverflow.com/users/8437464/messiah" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="https://twitter.com/zhangmengxin188" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://www.facebook.com/zhang.mengxin.16" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://www.linkedin.com/in/mengxin-zhang-788766b4" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://plus.google.com/u/1/109786624352426899645" class="iconfont icon-google" title="google"></a>
+      <a href="https://github.com/imzhangmengxin" class="iconfont icon-github" title="github"></a>
+      <a href="https://weibo.com/u/6071436038" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com/people/bemessiah" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://www.douban.com/people/44302274" class="iconfont icon-douban" title="douban"></a>
+      <a href="https://getpocket.com/@89dp1T84Abs6dd5fR1g197fg25d0AyPQ507a7aB67dj97dZa668a3Ka6y30zKYOY" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="https://www.tumblr.com/blog/messiah163" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="https://www.instagram.com/messiah163/" class="iconfont icon-instagram" title="instagram"></a>
+  <a href="http://www.imzmx.win/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="power-by">
+    Theme - 
+    <a class="theme-link" href="https://www.imzmx.win">Evenme</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> site pv: <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+    <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> site uv: <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2015 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">ZMX</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=3.1.1"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      TeX: {equationNumbers: {autoNumber: "AMS"}},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-98206095-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>

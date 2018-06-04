@@ -2,21 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on imzmx - A blog for messiah who committed to data engineering related work</title>
-    <link>https://www.imzmx.win/tags/</link>
+    <link>http://www.imzmx.win/tags/</link>
     <description>Recent content in Tags on imzmx - A blog for messiah who committed to data engineering related work</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <copyright>ZMX</copyright>
+    <lastBuildDate>Tue, 14 Mar 2017 21:57:45 +0800</lastBuildDate>
     
-	<atom:link href="https://www.imzmx.win/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.imzmx.win/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Markdown</title>
+      <link>http://www.imzmx.win/tags/markdown/</link>
+      <pubDate>Tue, 14 Mar 2017 21:57:45 +0800</pubDate>
+      
+      <guid>http://www.imzmx.win/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Syntax</title>
+      <link>http://www.imzmx.win/tags/syntax/</link>
+      <pubDate>Tue, 14 Mar 2017 21:57:45 +0800</pubDate>
+      
+      <guid>http://www.imzmx.win/tags/syntax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Test</title>
-      <link>https://www.imzmx.win/tags/test/</link>
+      <link>http://www.imzmx.win/tags/test/</link>
       <pubDate>Wed, 23 Aug 2017 18:03:09 +0800</pubDate>
       
-      <guid>https://www.imzmx.win/tags/test/</guid>
+      <guid>http://www.imzmx.win/tags/test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>数仓</title>
+      <link>http://www.imzmx.win/tags/%E6%95%B0%E4%BB%93/</link>
+      <pubDate>Sat, 04 Mar 2017 21:57:45 +0800</pubDate>
+      
+      <guid>http://www.imzmx.win/tags/%E6%95%B0%E4%BB%93/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>架构</title>
+      <link>http://www.imzmx.win/tags/%E6%9E%B6%E6%9E%84/</link>
+      <pubDate>Sat, 04 Mar 2017 21:57:45 +0800</pubDate>
+      
+      <guid>http://www.imzmx.win/tags/%E6%9E%B6%E6%9E%84/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>集合论</title>
+      <link>http://www.imzmx.win/tags/%E9%9B%86%E5%90%88%E8%AE%BA/</link>
+      <pubDate>Sat, 04 Mar 2017 21:57:45 +0800</pubDate>
+      
+      <guid>http://www.imzmx.win/tags/%E9%9B%86%E5%90%88%E8%AE%BA/</guid>
       <description></description>
     </item>
     

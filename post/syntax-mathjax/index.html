@@ -1,0 +1,2577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Syntax-MathJax - imzmx - A blog for messiah who committed to data engineering related work</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Messiah" />
+  <meta name="description" content="1.希腊字母 Greek letters MathJax-syntax Greek letters MathJax-syntax Latin letters MathJax-syntax $\alpha$ $\alpha$ $A$ $A$ $\beta$ $\beta$ $B$ $B$ $\gamma$ $\gamma$ $\Gamma$ $\Gamma$ $\delta$ $\delta$ $\Delta$ $\Delta$ $\epsilon$ $\epsilon$ $E$ $E$ $\varepsilon$ $\varepsilon$ $\zeta$ $\zeta$ $Z$ $Z$ $\eta$ $\eta$ $H$ $H$ $\theta$ $\theta$ $\Theta$ $\Theta$ $\vartheta$ $\vartheta$ $\iota$ $\iota$ $I$ $I$ $\kappa$ $\kappa$ $K$ $K$ $\lambda$ $\lambda$ $\Lambda$ $\Lambda$ $\mu$ $\mu$ $M$ $M$ $\nu$ $\nu$ $N$" />
+
+  <meta name="keywords" content="Imzmx, theme, messiah" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.40.3" />
+
+
+<link rel="canonical" href="http://www.imzmx.win/post/syntax-mathjax/" />
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+<link href="/dist/even.min.css?v=3.1.1" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+
+
+<meta property="og:title" content="Syntax-MathJax" />
+<meta property="og:description" content="1.希腊字母 Greek letters MathJax-syntax Greek letters MathJax-syntax Latin letters MathJax-syntax $\alpha$ $\alpha$ $A$ $A$ $\beta$ $\beta$ $B$ $B$ $\gamma$ $\gamma$ $\Gamma$ $\Gamma$ $\delta$ $\delta$ $\Delta$ $\Delta$ $\epsilon$ $\epsilon$ $E$ $E$ $\varepsilon$ $\varepsilon$ $\zeta$ $\zeta$ $Z$ $Z$ $\eta$ $\eta$ $H$ $H$ $\theta$ $\theta$ $\Theta$ $\Theta$ $\vartheta$ $\vartheta$ $\iota$ $\iota$ $I$ $I$ $\kappa$ $\kappa$ $K$ $K$ $\lambda$ $\lambda$ $\Lambda$ $\Lambda$ $\mu$ $\mu$ $M$ $M$ $\nu$ $\nu$ $N$" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.imzmx.win/post/syntax-mathjax/" />
+
+
+
+<meta property="article:published_time" content="2017-03-14T21:57:45&#43;08:00"/>
+
+<meta property="article:modified_time" content="2017-06-30T01:37:56&#43;08:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Syntax-MathJax">
+<meta itemprop="description" content="1.希腊字母 Greek letters MathJax-syntax Greek letters MathJax-syntax Latin letters MathJax-syntax $\alpha$ $\alpha$ $A$ $A$ $\beta$ $\beta$ $B$ $B$ $\gamma$ $\gamma$ $\Gamma$ $\Gamma$ $\delta$ $\delta$ $\Delta$ $\Delta$ $\epsilon$ $\epsilon$ $E$ $E$ $\varepsilon$ $\varepsilon$ $\zeta$ $\zeta$ $Z$ $Z$ $\eta$ $\eta$ $H$ $H$ $\theta$ $\theta$ $\Theta$ $\Theta$ $\vartheta$ $\vartheta$ $\iota$ $\iota$ $I$ $I$ $\kappa$ $\kappa$ $K$ $K$ $\lambda$ $\lambda$ $\Lambda$ $\Lambda$ $\mu$ $\mu$ $M$ $M$ $\nu$ $\nu$ $N$">
+
+
+<meta itemprop="datePublished" content="2017-03-14T21:57:45&#43;08:00" />
+<meta itemprop="dateModified" content="2017-03-14T21:57:45&#43;08:00" />
+<meta itemprop="wordCount" content="1676">
+
+
+
+<meta itemprop="keywords" content="Markdown,Syntax," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Syntax-MathJax"/>
+<meta name="twitter:description" content="1.希腊字母 Greek letters MathJax-syntax Greek letters MathJax-syntax Latin letters MathJax-syntax $\alpha$ $\alpha$ $A$ $A$ $\beta$ $\beta$ $B$ $B$ $\gamma$ $\gamma$ $\Gamma$ $\Gamma$ $\delta$ $\delta$ $\Delta$ $\Delta$ $\epsilon$ $\epsilon$ $E$ $E$ $\varepsilon$ $\varepsilon$ $\zeta$ $\zeta$ $Z$ $Z$ $\eta$ $\eta$ $H$ $H$ $\theta$ $\theta$ $\Theta$ $\Theta$ $\vartheta$ $\vartheta$ $\iota$ $\iota$ $I$ $I$ $\kappa$ $\kappa$ $K$ $K$ $\lambda$ $\lambda$ $\Lambda$ $\Lambda$ $\mu$ $\mu$ $M$ $M$ $\nu$ $\nu$ $N$"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Messiah</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Messiah</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Syntax-MathJax</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2017-03-14 </span>
+        <div class="post-category">
+            
+              <a href="/categories/documents/"> Documents </a>
+            
+          </div>
+        <span class="more-meta"> 1676 words </span>
+        <span class="more-meta"> 4 mins read </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
+      </div>
+    </header>
+
+    
+    
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#1-希腊字母">1.希腊字母</a></li>
+<li><a href="#2-其他符号">2.其他符号</a></li>
+<li><a href="#3-函数">3.函数</a></li>
+<li><a href="#4-大型运算符">4.大型运算符</a></li>
+<li><a href="#5-二元运算符">5.二元运算符</a></li>
+<li><a href="#6-二元关系符">6.二元关系符</a></li>
+<li><a href="#7-箭头">7.箭头</a></li>
+<li><a href="#8-定界符">8.定界符</a></li>
+<li><a href="#9-矩阵数组">9.矩阵数组</a></li>
+<li><a href="#9-备用名称和非数学符号">9.备用名称和非数学符号</a></li>
+<li><a href="#10-美国数学学会符号">10.美国数学学会符号</a></li>
+<li><a href="#参考资料">参考资料</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+
+    
+    <div class="post-content">
+      
+
+<h2 id="1-希腊字母">1.希腊字母</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Greek letters</th>
+<th align="center">MathJax-syntax</th>
+<th align="center">Greek letters</th>
+<th align="center">MathJax-syntax</th>
+<th align="center">Latin letters</th>
+<th align="center">MathJax-syntax</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">$\alpha$</td>
+<td align="center"><code>$\alpha$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">$A$</td>
+<td align="center"><code>$A$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\beta$</td>
+<td align="center"><code>$\beta$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">$B$</td>
+<td align="center"><code>$B$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\gamma$</td>
+<td align="center"><code>$\gamma$</code></td>
+<td align="center">$\Gamma$</td>
+<td align="center"><code>$\Gamma$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$\delta$</td>
+<td align="center"><code>$\delta$</code></td>
+<td align="center">$\Delta$</td>
+<td align="center"><code>$\Delta$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$\epsilon$</td>
+<td align="center"><code>$\epsilon$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">$E$</td>
+<td align="center"><code>$E$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\varepsilon$</td>
+<td align="center"><code>$\varepsilon$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$\zeta$</td>
+<td align="center"><code>$\zeta$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">$Z$</td>
+<td align="center"><code>$Z$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\eta$</td>
+<td align="center"><code>$\eta$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">$H$</td>
+<td align="center"><code>$H$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\theta$</td>
+<td align="center"><code>$\theta$</code></td>
+<td align="center">$\Theta$</td>
+<td align="center"><code>$\Theta$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$\vartheta$</td>
+<td align="center"><code>$\vartheta$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$\iota$</td>
+<td align="center"><code>$\iota$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">$I$</td>
+<td align="center"><code>$I$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\kappa$</td>
+<td align="center"><code>$\kappa$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">$K$</td>
+<td align="center"><code>$K$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\lambda$</td>
+<td align="center"><code>$\lambda$</code></td>
+<td align="center">$\Lambda$</td>
+<td align="center"><code>$\Lambda$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$\mu$</td>
+<td align="center"><code>$\mu$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">$M$</td>
+<td align="center"><code>$M$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\nu$</td>
+<td align="center"><code>$\nu$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">$N$</td>
+<td align="center"><code>$N$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\xi$</td>
+<td align="center"><code>$\xi$</code></td>
+<td align="center">$\Xi$</td>
+<td align="center"><code>$\Xi$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$o$</td>
+<td align="center"><code>$o$</code></td>
+<td align="center">$\O$</td>
+<td align="center"><code>$\O$</code></td>
+<td align="center">$O$</td>
+<td align="center"><code>$O$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\pi$</td>
+<td align="center"><code>$\pi$</code></td>
+<td align="center">$\Pi$</td>
+<td align="center"><code>$\Pi$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$\varpi$</td>
+<td align="center"><code>$\varpi$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$\rho$</td>
+<td align="center"><code>$\rho$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">$P$</td>
+<td align="center"><code>$P$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\varrho$</td>
+<td align="center"><code>$\varrho$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$\sigma$</td>
+<td align="center"><code>$\sigma$</code></td>
+<td align="center">$\Sigma$</td>
+<td align="center"><code>$\Sigma$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$\varsigma$</td>
+<td align="center"><code>$\varsigma$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$\tau$</td>
+<td align="center"><code>$\tau$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">$T$</td>
+<td align="center"><code>$T$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\upsilon$</td>
+<td align="center"><code>$\upsilon$</code></td>
+<td align="center">$\Upsilon$</td>
+<td align="center"><code>$\Upsilon$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$\phi$</td>
+<td align="center"><code>$\phi$</code></td>
+<td align="center">$\Phi$</td>
+<td align="center"><code>$\Phi$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$\varphi$</td>
+<td align="center"><code>$\varphi$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$\chi$</td>
+<td align="center"><code>$\chi$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">$X$</td>
+<td align="center"><code>$X$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\psi$</td>
+<td align="center"><code>$\psi$</code></td>
+<td align="center">$\Psi$</td>
+<td align="center"><code>$\Psi$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">$\omega$</td>
+<td align="center"><code>$\omega$</code></td>
+<td align="center">$\Omega$</td>
+<td align="center"><code>$\Omega$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="2-其他符号">2.其他符号</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Symbols</th>
+<th align="center">MathJax-syntax</th>
+<th align="center">Symbols</th>
+<th align="center">MathJax-syntax</th>
+<th align="center">Symbols</th>
+<th align="center">MathJax-syntax</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">$\aleph$</td>
+<td align="center"><code>$\aleph$</code></td>
+<td align="center">$\prime$</td>
+<td align="center"><code>$\prime$</code></td>
+<td align="center">$\forall$</td>
+<td align="center"><code>$\forall$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\hbar$</td>
+<td align="center"><code>$\hbar$</code></td>
+<td align="center">$\emptyset$</td>
+<td align="center"><code>$\emptyset$</code></td>
+<td align="center">$\exists$</td>
+<td align="center"><code>$\exists$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\imath$</td>
+<td align="center"><code>$\imath$</code></td>
+<td align="center">$\nabla$</td>
+<td align="center"><code>$\nabla$</code></td>
+<td align="center">$\neg$</td>
+<td align="center"><code>$\neg$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\jmath$</td>
+<td align="center"><code>$\jmath$</code></td>
+<td align="center">$\surd$</td>
+<td align="center"><code>$\surd$</code></td>
+<td align="center">$\flat$</td>
+<td align="center"><code>$\flat$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\ell$</td>
+<td align="center"><code>$\ell$</code></td>
+<td align="center">$\top$</td>
+<td align="center"><code>$\top$</code></td>
+<td align="center">$\natural$</td>
+<td align="center"><code>$\natural$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\wp$</td>
+<td align="center"><code>$\wp$</code></td>
+<td align="center">$\bot$</td>
+<td align="center"><code>$\bot$</code></td>
+<td align="center">$\sharp$</td>
+<td align="center"><code>$\sharp$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\Re$</td>
+<td align="center"><code>$\Re$</code></td>
+<td align="center">$|$</td>
+<td align="center"><code>$\|$</code></td>
+<td align="center">$\clubsuit$</td>
+<td align="center"><code>$\clubsuit$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\Im$</td>
+<td align="center"><code>$\Im$</code></td>
+<td align="center">$\angle$</td>
+<td align="center"><code>$\angle$</code></td>
+<td align="center">$\diamondsuit$</td>
+<td align="center"><code>$\diamondsuit$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\partial$</td>
+<td align="center"><code>$\partial$</code></td>
+<td align="center">$\triangle$</td>
+<td align="center"><code>$\triangle$</code></td>
+<td align="center">$\heartsuit$</td>
+<td align="center"><code>$\heartsuit$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\infty$</td>
+<td align="center"><code>$\infty$</code></td>
+<td align="center">$\backslash$</td>
+<td align="center"><code>$\backslash$</code></td>
+<td align="center">$\spadesuit$</td>
+<td align="center"><code>$\spadesuit$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\ldots$</td>
+<td align="center"><code>$\ldots$</code></td>
+<td align="center">$\cdots$</td>
+<td align="center"><code>$\cdots$</code></td>
+<td align="center">$\vdots$</td>
+<td align="center"><code>$\vdots$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\ddots$</td>
+<td align="center"><code>$\ddots$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="3-函数">3.函数</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Functions</th>
+<th align="center">MathJax-syntax</th>
+<th align="center">Functions</th>
+<th align="center">MathJax-syntax</th>
+<th align="center">Functions</th>
+<th align="center">MathJax-syntax</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">$\arcsin$</td>
+<td align="center"><code>$\arcsin$</code></td>
+<td align="center">$\exp$</td>
+<td align="center"><code>$\exp$</code></td>
+<td align="center">$\max$</td>
+<td align="center"><code>$\max$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\arccos$</td>
+<td align="center"><code>$\arccos$</code></td>
+<td align="center">$\gcd$</td>
+<td align="center"><code>$\gcd$</code></td>
+<td align="center">$\min$</td>
+<td align="center"><code>$\min$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\arctan$</td>
+<td align="center"><code>$\arctan$</code></td>
+<td align="center">$\hom$</td>
+<td align="center"><code>$\hom$</code></td>
+<td align="center">$\Pr$</td>
+<td align="center"><code>$\Pr$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\arg$</td>
+<td align="center"><code>$\arg$</code></td>
+<td align="center">$\inf$</td>
+<td align="center"><code>$\inf$</code></td>
+<td align="center">$\sec$</td>
+<td align="center"><code>$\sec$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\cos$</td>
+<td align="center"><code>$\cos$</code></td>
+<td align="center">$\ker$</td>
+<td align="center"><code>$\ker$</code></td>
+<td align="center">$\sin$</td>
+<td align="center"><code>$\sin$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\cosh$</td>
+<td align="center"><code>$\cosh$</code></td>
+<td align="center">$\lg$</td>
+<td align="center"><code>$\lg$</code></td>
+<td align="center">$\sinh$</td>
+<td align="center"><code>$\sinh$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\cot$</td>
+<td align="center"><code>$\cot$</code></td>
+<td align="center">$\lim$</td>
+<td align="center"><code>$\lim$</code></td>
+<td align="center">$\sup$</td>
+<td align="center"><code>$\sup$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\coth$</td>
+<td align="center"><code>$\coth$</code></td>
+<td align="center">$\liminf$</td>
+<td align="center"><code>$\liminf$</code></td>
+<td align="center">$\tan$</td>
+<td align="center"><code>$\tan$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\csc$</td>
+<td align="center"><code>$\csc$</code></td>
+<td align="center">$\limsup$</td>
+<td align="center"><code>$\limsup$</code></td>
+<td align="center">$\tanh$</td>
+<td align="center"><code>$\tanh$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\deg$</td>
+<td align="center"><code>$\deg$</code></td>
+<td align="center">$\ln$</td>
+<td align="center"><code>$\ln$</code></td>
+<td align="center">$\sqrt{x}$</td>
+<td align="center"><code>$\sqrt{x}$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\det$</td>
+<td align="center"><code>$\det$</code></td>
+<td align="center">$\log$</td>
+<td align="center"><code>$\log$</code></td>
+<td align="center">$x^y$</td>
+<td align="center"><code>$x^y$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\dim$</td>
+<td align="center"><code>$\dim$</code></td>
+<td align="center">$\root{x}\of{y}$</td>
+<td align="center"><code>$\root{x}\of{y}$</code></td>
+<td align="center">$\bmod$</td>
+<td align="center"><code>$\bmod$</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="4-大型运算符">4.大型运算符</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Operators</th>
+<th align="center">MathJax-syntax</th>
+<th align="center">Operators</th>
+<th align="center">MathJax-syntax</th>
+<th align="center">Operators</th>
+<th align="center">MathJax-syntax</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">$\sum$</td>
+<td align="center"><code>$\sum$</code></td>
+<td align="center">$\bigcap$</td>
+<td align="center"><code>$\bigcap$</code></td>
+<td align="center">$\bigodot$</td>
+<td align="center"><code>$\bigodot$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\prod$</td>
+<td align="center"><code>$\prod$</code></td>
+<td align="center">$\bigcup$</td>
+<td align="center"><code>$\bigcup$</code></td>
+<td align="center">$\bigotimes$</td>
+<td align="center"><code>$\bigotimes$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\coprod$</td>
+<td align="center"><code>$\coprod$</code></td>
+<td align="center">$\bigsqcup$</td>
+<td align="center"><code>$\bigsqcup$</code></td>
+<td align="center">$\bigoplus$</td>
+<td align="center"><code>$\bigoplus$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\int$</td>
+<td align="center"><code>$\int$</code></td>
+<td align="center">$\bigvee$</td>
+<td align="center"><code>$\bigvee$</code></td>
+<td align="center">$\biguplus$</td>
+<td align="center"><code>$\biguplus$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\oint$</td>
+<td align="center"><code>$\oint$</code></td>
+<td align="center">$\bigwedge$</td>
+<td align="center"><code>$\bigwedge$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="5-二元运算符">5.二元运算符</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Operators</th>
+<th align="center">MathJax-syntax</th>
+<th align="center">Operators</th>
+<th align="center">MathJax-syntax</th>
+<th align="center">Operators</th>
+<th align="center">MathJax-syntax</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">$\pm$</td>
+<td align="center"><code>$\pm$</code></td>
+<td align="center">$\cap$</td>
+<td align="center"><code>$\cap$</code></td>
+<td align="center">$\vee$</td>
+<td align="center"><code>$\vee$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\mp$</td>
+<td align="center"><code>$\mp$</code></td>
+<td align="center">$\cup$</td>
+<td align="center"><code>$\cup$</code></td>
+<td align="center">$\wedge$</td>
+<td align="center"><code>$\wedge$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\setminus$</td>
+<td align="center"><code>$\setminus$</code></td>
+<td align="center">$\uplus$</td>
+<td align="center"><code>$\uplus$</code></td>
+<td align="center">$\oplus$</td>
+<td align="center"><code>$\oplus$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\cdot$</td>
+<td align="center"><code>$\cdot$</code></td>
+<td align="center">$\sqcap$</td>
+<td align="center"><code>$\sqcap$</code></td>
+<td align="center">$\ominus$</td>
+<td align="center"><code>$\ominus$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\times$</td>
+<td align="center"><code>$\times$</code></td>
+<td align="center">$\sqcup$</td>
+<td align="center"><code>$\sqcup$</code></td>
+<td align="center">$\otimes$</td>
+<td align="center"><code>$\otimes$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\ast$</td>
+<td align="center"><code>$\ast$</code></td>
+<td align="center">$\triangleleft$</td>
+<td align="center"><code>$\triangleleft$</code></td>
+<td align="center">$\oslash$</td>
+<td align="center"><code>$\oslash$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\star$</td>
+<td align="center"><code>$\star$</code></td>
+<td align="center">$\triangleright$</td>
+<td align="center"><code>$\triangleright$</code></td>
+<td align="center">$\odot$</td>
+<td align="center"><code>$\odot$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\diamond$</td>
+<td align="center"><code>$\diamond$</code></td>
+<td align="center">$\wr$</td>
+<td align="center"><code>$\wr$</code></td>
+<td align="center">$\dagger$</td>
+<td align="center"><code>$\dagger$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\circ$</td>
+<td align="center"><code>$\circ$</code></td>
+<td align="center">$\bigcirc$</td>
+<td align="center"><code>$\bigcirc$</code></td>
+<td align="center">$\ddagger$</td>
+<td align="center"><code>$\ddagger$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\bullet$</td>
+<td align="center"><code>$\bullet$</code></td>
+<td align="center">$\bigtriangleup$</td>
+<td align="center"><code>$\bigtriangleup$</code></td>
+<td align="center">$\amalg$</td>
+<td align="center"><code>$\amalg$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\div$</td>
+<td align="center"><code>$\div$</code></td>
+<td align="center">$\bigtriangledown$</td>
+<td align="center"><code>$\bigtriangledown$</code></td>
+<td align="center">$\equiv$</td>
+<td align="center"><code>$\equiv$</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="6-二元关系符">6.二元关系符</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Relations</th>
+<th align="center">MathJax-syntax</th>
+<th align="center">Relations</th>
+<th align="center">MathJax-syntax</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">$&lt;$</td>
+<td align="center"><code>$&lt;$</code></td>
+<td align="center">$\not&lt;$</td>
+<td align="center"><code>$\not&lt;$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\leq$</td>
+<td align="center"><code>$\leq$</code></td>
+<td align="center">$\not\leq$</td>
+<td align="center"><code>$\not\leq$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\prec$</td>
+<td align="center"><code>$\prec$</code></td>
+<td align="center">$\not\prec$</td>
+<td align="center"><code>$\not\prec$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\preceq$</td>
+<td align="center"><code>$\preceq$</code></td>
+<td align="center">$\not\preceq$</td>
+<td align="center"><code>$\not\preceq$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\ll$</td>
+<td align="center"><code>$\ll$</code></td>
+<td align="center">$\not\ll$</td>
+<td align="center">* <code>$\not\ll$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\subset$</td>
+<td align="center"><code>$\subset$</code></td>
+<td align="center">$\not\subset$</td>
+<td align="center"><code>$\not\subset$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\subseteq$</td>
+<td align="center"><code>$\subseteq$</code></td>
+<td align="center">$\not\subseteq$</td>
+<td align="center"><code>$\not\subseteq$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\sqsubseteq$</td>
+<td align="center"><code>$\sqsubseteq$</code></td>
+<td align="center">$\not\sqsubseteq$</td>
+<td align="center"><code>$\not\sqsubseteq$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\in$</td>
+<td align="center"><code>$\in$</code></td>
+<td align="center">$\notin$</td>
+<td align="center"><code>$\notin$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\vdash$</td>
+<td align="center"><code>$\vdash$</code></td>
+<td align="center">$\not\vdash$</td>
+<td align="center">*<code>$\not\vdash$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\smile$</td>
+<td align="center"><code>$\smile$</code></td>
+<td align="center">$\not\smile$</td>
+<td align="center">*<code>$\not\smile$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\frown$</td>
+<td align="center"><code>$\frown$</code></td>
+<td align="center">$\not\frown$</td>
+<td align="center">*<code>$\not\frown$</code></td>
+</tr>
+
+<tr>
+<td align="center">$&gt;$</td>
+<td align="center"><code>$&gt;$</code></td>
+<td align="center">$\not&gt;$</td>
+<td align="center"><code>$\not&gt;$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\geq$</td>
+<td align="center"><code>$\geq$</code></td>
+<td align="center">$\not\geq$</td>
+<td align="center"><code>$\not\geq$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\succ$</td>
+<td align="center"><code>$\succ$</code></td>
+<td align="center">$\not\succ$</td>
+<td align="center"><code>$\not\succ$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\succeq$</td>
+<td align="center"><code>$\succeq$</code></td>
+<td align="center">$\not\succeq$</td>
+<td align="center"><code>$\not\succeq$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\gg$</td>
+<td align="center"><code>$\gg$</code></td>
+<td align="center">$\not\gg$</td>
+<td align="center">*<code>$\not\gg$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\supset$</td>
+<td align="center"><code>$\supset$</code></td>
+<td align="center">$\not\supset$</td>
+<td align="center"><code>$\not\supset$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\supseteq$</td>
+<td align="center"><code>$\supseteq$</code></td>
+<td align="center">$\not\supseteq$</td>
+<td align="center"><code>$\not\supseteq$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\sqsupseteq$</td>
+<td align="center"><code>$\sqsupseteq$</code></td>
+<td align="center">$\not\sqsupseteq$</td>
+<td align="center"><code>$\not\sqsupseteq$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\ni$</td>
+<td align="center"><code>$\ni$</code></td>
+<td align="center">$\not\ni$</td>
+<td align="center">*<code>$\not\ni$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\dashv$</td>
+<td align="center"><code>$\dashv$</code></td>
+<td align="center">$\not\dashv$</td>
+<td align="center">*<code>$\not\dashv$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\mid$</td>
+<td align="center"><code>$\mid$</code></td>
+<td align="center">$\not\mid$</td>
+<td align="center">*<code>$\not\mid$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\parallel$</td>
+<td align="center"><code>$\parallel$</code></td>
+<td align="center">$\not\parallel$</td>
+<td align="center">*<code>$\not\parallel$</code></td>
+</tr>
+
+<tr>
+<td align="center">$=$</td>
+<td align="center"><code>$=$</code></td>
+<td align="center">$\not=$</td>
+<td align="center"><code>$\not=$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\equiv$</td>
+<td align="center"><code>$\equiv$</code></td>
+<td align="center">$\not\equiv$</td>
+<td align="center"><code>$\not\equiv$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\sim$</td>
+<td align="center"><code>$\sim$</code></td>
+<td align="center">$\not\sim$</td>
+<td align="center"><code>$\not\sim$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\simeq$</td>
+<td align="center"><code>$\simeq$</code></td>
+<td align="center">$\not\simeq$</td>
+<td align="center"><code>$\not\simeq$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\asymp$</td>
+<td align="center"><code>$\asymp$</code></td>
+<td align="center">$\not\asymp$</td>
+<td align="center"><code>$\not\asymp$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\approx$</td>
+<td align="center"><code>$\approx$</code></td>
+<td align="center">$\not\approx$</td>
+<td align="center"><code>$\not\approx$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\cong$</td>
+<td align="center"><code>$\cong$</code></td>
+<td align="center">$\not\cong$</td>
+<td align="center"><code>$\not\cong$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\bowtie$</td>
+<td align="center"><code>$\bowtie$</code></td>
+<td align="center">$\not\bowtie$</td>
+<td align="center">*<code>$\not\bowtie$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\propto$</td>
+<td align="center"><code>$\propto$</code></td>
+<td align="center">$\not\propto$</td>
+<td align="center">*<code>$\not\propto$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\models$</td>
+<td align="center"><code>$\models$</code></td>
+<td align="center">$\not\models$</td>
+<td align="center">*<code>$\not\models$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\doteq$</td>
+<td align="center"><code>$\doteq$</code></td>
+<td align="center">$\not\doteq$</td>
+<td align="center">*<code>$\not\doteq$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\perp$</td>
+<td align="center"><code>$\perp$</code></td>
+<td align="center">$\not\perp$</td>
+<td align="center">*<code>$\not\perp$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\buildrel{\scriptscriptstyle\rm def}\over=$</td>
+<td align="center">*<code>$\buildrel{\scriptscriptstyle\rm def}\over=$</code></td>
+<td align="center">$\buildrel\rho\over\longrightarrow$</td>
+<td align="center">*<code>$\buildrel\rho\over\longrightarrow$</code></td>
+</tr>
+</tbody>
+</table>
+
+<p><sub>* : 自定义符号</sub></p>
+
+<h2 id="7-箭头">7.箭头</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Arrows</th>
+<th align="center">MathJax-syntax</th>
+<th align="center">Arrows</th>
+<th align="center">MathJax-syntax</th>
+<th align="center">Arrows</th>
+<th align="center">MathJax-syntax</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">$\leftarrow$</td>
+<td align="center"><code>$\leftarrow$</code></td>
+<td align="center">$\longleftarrow$</td>
+<td align="center"><code>$\longleftarrow$</code></td>
+<td align="center">$\uparrow$</td>
+<td align="center"><code>$\uparrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\Leftarrow$</td>
+<td align="center"><code>$\Leftarrow$</code></td>
+<td align="center">$\Longleftarrow$</td>
+<td align="center"><code>$\Longleftarrow$</code></td>
+<td align="center">$\Uparrow$</td>
+<td align="center"><code>$\Uparrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\rightarrow$</td>
+<td align="center"><code>$\rightarrow$</code></td>
+<td align="center">$\longrightarrow$</td>
+<td align="center"><code>$\longrightarrow$</code></td>
+<td align="center">$\downarrow$</td>
+<td align="center"><code>$\downarrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\Rightarrow$</td>
+<td align="center"><code>$\Rightarrow$</code></td>
+<td align="center">$\Longrightarrow$</td>
+<td align="center"><code>$\Longrightarrow$</code></td>
+<td align="center">$\Downarrow$</td>
+<td align="center"><code>$\Downarrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\leftrightarrow$</td>
+<td align="center"><code>$\leftrightarrow$</code></td>
+<td align="center">$\longleftrightarrow$</td>
+<td align="center"><code>$\longleftrightarrow$</code></td>
+<td align="center">$\updownarrow$</td>
+<td align="center"><code>$\updownarrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\Leftrightarrow$</td>
+<td align="center"><code>$\Leftrightarrow$</code></td>
+<td align="center">$\Longleftrightarrow$</td>
+<td align="center"><code>$\Longleftrightarrow$</code></td>
+<td align="center">$\Updownarrow$</td>
+<td align="center"><code>$\Updownarrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\mapsto$</td>
+<td align="center"><code>$\mapsto$</code></td>
+<td align="center">$\longmapsto$</td>
+<td align="center"><code>$\longmapsto$</code></td>
+<td align="center">$\nearrow$</td>
+<td align="center"><code>$\nearrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\hookleftarrow$</td>
+<td align="center"><code>$\hookleftarrow$</code></td>
+<td align="center">$\hookrightarrow$</td>
+<td align="center"><code>$\hookrightarrow$</code></td>
+<td align="center">$\searrow$</td>
+<td align="center"><code>$\searrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\leftharpoonup$</td>
+<td align="center"><code>$\leftharpoonup$</code></td>
+<td align="center">$\rightharpoonup$</td>
+<td align="center"><code>$\rightharpoonup$</code></td>
+<td align="center">$\swarrow$</td>
+<td align="center"><code>$\swarrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\leftharpoondown$</td>
+<td align="center"><code>$\leftharpoondown$</code></td>
+<td align="center">$\rightharpoondown$</td>
+<td align="center"><code>$\rightharpoondown$</code></td>
+<td align="center">$\nwarrow$</td>
+<td align="center"><code>$\nwarrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\rightleftharpoons$</td>
+<td align="center"><code>$\rightleftharpoons$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="8-定界符">8.定界符</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Delimiters</th>
+<th align="center">MathJax-syntax</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">$($</td>
+<td align="center"><code>$($</code></td>
+</tr>
+
+<tr>
+<td align="center">$\big($</td>
+<td align="center"><code>$\big($</code></td>
+</tr>
+
+<tr>
+<td align="center">$\Big($</td>
+<td align="center"><code>$\Big($</code></td>
+</tr>
+
+<tr>
+<td align="center">$\bigg($</td>
+<td align="center"><code>$\bigg($</code></td>
+</tr>
+
+<tr>
+<td align="center">$\Bigg($</td>
+<td align="center"><code>$\Bigg($</code></td>
+</tr>
+
+<tr>
+<td align="center">$\overline{x+y+z}$</td>
+<td align="center"><code>$\overline{x+y+z}$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\underline{x+y+z}$</td>
+<td align="center"><code>$\underline{x+y+z}$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\overbrace{x+\cdots+x}^{k\;\rm times}$</td>
+<td align="center"><code>$\overbrace{x+\cdots+x}^{k\;\rm times}$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\underbrace{x+\cdots+x}_{k\;\rm times}$</td>
+<td align="center"><code>$\underbrace{x+\cdots+x}_{k\;\rm times}$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\overleftarrow{x_1+\cdots+x_k}$</td>
+<td align="center"><code>$\overleftarrow{x_1+\cdots+x_k}$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\overrightarrow{x_1+\cdots+x_k}$</td>
+<td align="center"><code>$\overrightarrow{x_1+\cdots+x_k}$</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="9-矩阵数组">9.矩阵数组</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Matrices Arrays</th>
+<th align="center">MathJax-syntax</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">${n \choose 2}$</td>
+<td align="center"><code>${n \choose 2}$</code></td>
+</tr>
+
+<tr>
+<td align="center">${n \brack 2}$</td>
+<td align="center"><code>${n \brack 2}$</code></td>
+</tr>
+
+<tr>
+<td align="center">${n \brace 2}$</td>
+<td align="center"><code>${n \brace 2}$</code></td>
+</tr>
+
+<tr>
+<td align="center">$f(x)=\cases {x^2+1&amp;\text{$x&lt;0$}\cr 1-x&amp;\text{otherwise}}$</td>
+<td align="center"><code>$f(x)=\cases {x^2+1&amp;\text{$x&lt;0$}\cr 1-x&amp;\text{otherwise}}$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\pmatrix{1&amp; 0\ 0&amp; 1}$</td>
+<td align="center"><code>$\pmatrix{1&amp; 0\\ 0&amp; 1}$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\left[\matrix{a^2-b^2&amp; -1\ 1&amp; 2ab}\right]$</td>
+<td align="center"><code>$\left[\matrix{a^2-b^2&amp; -1\\ 1&amp; 2ab}\right]$</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="9-备用名称和非数学符号">9.备用名称和非数学符号</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Symbols</th>
+<th align="center">MathJax-syntax</th>
+<th align="center">Same Symbols</th>
+<th align="center">MathJax-syntax</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">$\le$</td>
+<td align="center"><code>$\le$</code></td>
+<td align="center">$\leq$</td>
+<td align="center"><code>$\leq$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\ge$</td>
+<td align="center"><code>$\ge$</code></td>
+<td align="center">$\geq$</td>
+<td align="center"><code>$\geq$</code></td>
+</tr>
+
+<tr>
+<td align="center">${$</td>
+<td align="center"><code>$\{$</code></td>
+<td align="center">$\lbrace$</td>
+<td align="center"><code>$\lbrace$</code></td>
+</tr>
+
+<tr>
+<td align="center">$}$</td>
+<td align="center"><code>$\}$</code></td>
+<td align="center">$\rbrace$</td>
+<td align="center"><code>$\rbrace$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\to$</td>
+<td align="center"><code>$\to$</code></td>
+<td align="center">$\rightarrow$</td>
+<td align="center"><code>$\rightarrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\gets$</td>
+<td align="center"><code>$\gets$</code></td>
+<td align="center">$\leftarrow$</td>
+<td align="center"><code>$\leftarrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\owns$</td>
+<td align="center"><code>$\owns$</code></td>
+<td align="center">$\ni$</td>
+<td align="center"><code>$\ni$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\land$</td>
+<td align="center"><code>$\land$</code></td>
+<td align="center">$\wedge$</td>
+<td align="center"><code>$\wedge$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\lor$</td>
+<td align="center"><code>$\lor$</code></td>
+<td align="center">$\vee$</td>
+<td align="center"><code>$\vee$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\lnot$</td>
+<td align="center"><code>$\lnot$</code></td>
+<td align="center">$\neg$</td>
+<td align="center"><code>$\neg$</code></td>
+</tr>
+
+<tr>
+<td align="center">$|$</td>
+<td align="center"><code>$\|$</code></td>
+<td align="center">$\vert$</td>
+<td align="center"><code>$\vert$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\neq$</td>
+<td align="center"><code>$\neq$</code></td>
+<td align="center">$\Vert$</td>
+<td align="center"><code>$\Vert$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\ne$</td>
+<td align="center"><code>$\ne$</code></td>
+<td align="center">$\not=$</td>
+<td align="center"><code>$\not=$</code></td>
+</tr>
+
+<tr>
+<td align="center">$\dagger$</td>
+<td align="center"><code>$\dagger$</code></td>
+<td align="center">$\ddagger$</td>
+<td align="center"><code>$\ddagger$</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="10-美国数学学会符号">10.美国数学学会符号</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">Type</th>
+<th align="center">Symbols</th>
+<th align="center">MathJax-syntax</th>
+<th align="center">Symbols</th>
+<th align="center">MathJax-syntax</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">小写希腊字母</td>
+<td align="center">$\digamma$</td>
+<td align="center"><code>$\digamma$</code></td>
+<td align="center">$\varkappa$</td>
+<td align="center"><code>$\varkappa$</code></td>
+</tr>
+
+<tr>
+<td align="center">希伯来字母</td>
+<td align="center">$\beth$</td>
+<td align="center"><code>$\beth$</code></td>
+<td align="center">$\gimel$</td>
+<td align="center"><code>$\gimel$</code></td>
+</tr>
+
+<tr>
+<td align="center">希伯来字母</td>
+<td align="center">$\daleth$</td>
+<td align="center"><code>$\daleth$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">杂项符号</td>
+<td align="center">$\hbar$</td>
+<td align="center"><code>$\hbar$</code></td>
+<td align="center">$\backprime$</td>
+<td align="center"><code>$\backprime$</code></td>
+</tr>
+
+<tr>
+<td align="center">杂项符号</td>
+<td align="center">$\hslash$</td>
+<td align="center"><code>$\hslash$</code></td>
+<td align="center">$\varnothing$</td>
+<td align="center"><code>$\varnothing$</code></td>
+</tr>
+
+<tr>
+<td align="center">杂项符号</td>
+<td align="center">$\vartriangle$</td>
+<td align="center"><code>$\vartriangle$</code></td>
+<td align="center">$\blacktriangle$</td>
+<td align="center"><code>$\blacktriangle$</code></td>
+</tr>
+
+<tr>
+<td align="center">杂项符号</td>
+<td align="center">$\triangledown$</td>
+<td align="center"><code>$\triangledown$</code></td>
+<td align="center">$\blacktriangledown$</td>
+<td align="center"><code>$\blacktriangledown$</code></td>
+</tr>
+
+<tr>
+<td align="center">杂项符号</td>
+<td align="center">$\square$</td>
+<td align="center"><code>$\square$</code></td>
+<td align="center">$\blacksquare$</td>
+<td align="center"><code>$\blacksquare$</code></td>
+</tr>
+
+<tr>
+<td align="center">杂项符号</td>
+<td align="center">$\lozenge$</td>
+<td align="center"><code>$\lozenge$</code></td>
+<td align="center">$\blacklozenge$</td>
+<td align="center"><code>$\blacklozenge$</code></td>
+</tr>
+
+<tr>
+<td align="center">杂项符号</td>
+<td align="center">$\circledS$</td>
+<td align="center"><code>$\circledS$</code></td>
+<td align="center">$\bigstar$</td>
+<td align="center"><code>$\bigstar$</code></td>
+</tr>
+
+<tr>
+<td align="center">杂项符号</td>
+<td align="center">$\angle$</td>
+<td align="center"><code>$\angle$</code></td>
+<td align="center">$\sphericalangle$</td>
+<td align="center"><code>$\sphericalangle$</code></td>
+</tr>
+
+<tr>
+<td align="center">杂项符号</td>
+<td align="center">$\measuredangle$</td>
+<td align="center"><code>$\measuredangle$</code></td>
+<td align="center">$\nexists$</td>
+<td align="center"><code>$\nexists$</code></td>
+</tr>
+
+<tr>
+<td align="center">杂项符号</td>
+<td align="center">$\mho$</td>
+<td align="center"><code>$\mho$</code></td>
+<td align="center">$\complement$</td>
+<td align="center"><code>$\complement$</code></td>
+</tr>
+
+<tr>
+<td align="center">杂项符号</td>
+<td align="center">$\Finv$</td>
+<td align="center"><code>$\Finv$</code></td>
+<td align="center">$\eth$</td>
+<td align="center"><code>$\eth$</code></td>
+</tr>
+
+<tr>
+<td align="center">杂项符号</td>
+<td align="center">$\Game$</td>
+<td align="center"><code>$\Game$</code></td>
+<td align="center">$\diagup$</td>
+<td align="center"><code>$\diagup$</code></td>
+</tr>
+
+<tr>
+<td align="center">杂项符号</td>
+<td align="center">$\Bbbk$</td>
+<td align="center"><code>$\Bbbk$</code></td>
+<td align="center">$\diagdown$</td>
+<td align="center"><code>$\diagdown$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元运算符</td>
+<td align="center">$\dotplus$</td>
+<td align="center"><code>$\dotplus$</code></td>
+<td align="center">$\ltimes$</td>
+<td align="center"><code>$\ltimes$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元运算符</td>
+<td align="center">$\smallsetminus$</td>
+<td align="center"><code>$\smallsetminus$</code></td>
+<td align="center">$\rtimes$</td>
+<td align="center"><code>$\rtimes$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元运算符</td>
+<td align="center">$\Cap, \doublecap$</td>
+<td align="center"><code>$\Cap, \doublecap$</code></td>
+<td align="center">$\leftthreetimes$</td>
+<td align="center"><code>$\leftthreetimes$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元运算符</td>
+<td align="center">$\Cup, \doublecup$</td>
+<td align="center"><code>$\Cup, \doublecup$</code></td>
+<td align="center">$\rightthreetimes$</td>
+<td align="center"><code>$\rightthreetimes$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元运算符</td>
+<td align="center">$\barwedge$</td>
+<td align="center"><code>$\barwedge$</code></td>
+<td align="center">$\curlywedge$</td>
+<td align="center"><code>$\curlywedge$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元运算符</td>
+<td align="center">$\veebar$</td>
+<td align="center"><code>$\veebar$</code></td>
+<td align="center">$\curlyvee$</td>
+<td align="center"><code>$\curlyvee$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元运算符</td>
+<td align="center">$\doublebarwedge$</td>
+<td align="center"><code>$\doublebarwedge$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">二元运算符</td>
+<td align="center">$\boxminus$</td>
+<td align="center"><code>$\boxminus$</code></td>
+<td align="center">$\circleddash$</td>
+<td align="center"><code>$\circleddash$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元运算符</td>
+<td align="center">$\boxtimes$</td>
+<td align="center"><code>$\boxtimes$</code></td>
+<td align="center">$\circledast$</td>
+<td align="center"><code>$\circledast$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元运算符</td>
+<td align="center">$\boxdot$</td>
+<td align="center"><code>$\boxdot$</code></td>
+<td align="center">$\circledcirc$</td>
+<td align="center"><code>$\circledcirc$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元运算符</td>
+<td align="center">$\boxplus$</td>
+<td align="center"><code>$\boxplus$</code></td>
+<td align="center">$\centerdot$</td>
+<td align="center"><code>$\centerdot$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元运算符</td>
+<td align="center">$\divideontimes$</td>
+<td align="center"><code>$\divideontimes$</code></td>
+<td align="center">$\intercal$</td>
+<td align="center"><code>$\intercal$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\leqq$</td>
+<td align="center"><code>$\leqq$</code></td>
+<td align="center">$\geqq$</td>
+<td align="center"><code>$\geqq$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\leqslant$</td>
+<td align="center"><code>$\leqslant$</code></td>
+<td align="center">$\geqslant$</td>
+<td align="center"><code>$\geqslant$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\eqslantless$</td>
+<td align="center"><code>$\eqslantless$</code></td>
+<td align="center">$\eqslantgtr$</td>
+<td align="center"><code>$\eqslantgtr$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\lesssim$</td>
+<td align="center"><code>$\lesssim$</code></td>
+<td align="center">$\gtrsim$</td>
+<td align="center"><code>$\gtrsim$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\lessapprox$</td>
+<td align="center"><code>$\lessapprox$</code></td>
+<td align="center">$\gtrapprox$</td>
+<td align="center"><code>$\gtrapprox$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\approxeq$</td>
+<td align="center"><code>$\approxeq$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\lessdot$</td>
+<td align="center"><code>$\lessdot$</code></td>
+<td align="center">$\gtrdot$</td>
+<td align="center"><code>$\gtrdot$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\lll, \llless$</td>
+<td align="center"><code>$\lll, \llless$</code></td>
+<td align="center">$\ggg, \gggtr$</td>
+<td align="center"><code>$\ggg, \gggtr$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\lessgtr$</td>
+<td align="center"><code>$\lessgtr$</code></td>
+<td align="center">$\gtrless$</td>
+<td align="center"><code>$\gtrless$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\lesseqgtr$</td>
+<td align="center"><code>$\lesseqgtr$</code></td>
+<td align="center">$\gtreqless$</td>
+<td align="center"><code>$\gtreqless$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\lesseqqgtr$</td>
+<td align="center"><code>$\lesseqqgtr$</code></td>
+<td align="center">$\gtreqqless$</td>
+<td align="center"><code>$\gtreqqless$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\doteqdot, \Doteq$</td>
+<td align="center"><code>$\doteqdot, \Doteq$</code></td>
+<td align="center">$\eqcirc$</td>
+<td align="center"><code>$\eqcirc$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\risingdotseq$</td>
+<td align="center"><code>$\risingdotseq$</code></td>
+<td align="center">$\circeq$</td>
+<td align="center"><code>$\circeq$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\fallingdotseq$</td>
+<td align="center"><code>$\fallingdotseq$</code></td>
+<td align="center">$\triangleq$</td>
+<td align="center"><code>$\triangleq$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\backsim$</td>
+<td align="center"><code>$\backsim$</code></td>
+<td align="center">$\thicksim$</td>
+<td align="center"><code>$\thicksim$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\backsimeq$</td>
+<td align="center"><code>$\backsimeq$</code></td>
+<td align="center">$\thickapprox$</td>
+<td align="center"><code>$\thickapprox$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\subseteqq$</td>
+<td align="center"><code>$\subseteqq$</code></td>
+<td align="center">$\supseteqq$</td>
+<td align="center"><code>$\supseteqq$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\Subset$</td>
+<td align="center"><code>$\Subset$</code></td>
+<td align="center">$\Supset$</td>
+<td align="center"><code>$\Supset$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\sqsubset$</td>
+<td align="center"><code>$\sqsubset$</code></td>
+<td align="center">$\sqsupset$</td>
+<td align="center"><code>$\sqsupset$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\preccurlyeq$</td>
+<td align="center"><code>$\preccurlyeq$</code></td>
+<td align="center">$\succcurlyeq$</td>
+<td align="center"><code>$\succcurlyeq$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\curlyeqprec$</td>
+<td align="center"><code>$\curlyeqprec$</code></td>
+<td align="center">$\curlyeqsucc$</td>
+<td align="center"><code>$\curlyeqsucc$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\precsim$</td>
+<td align="center"><code>$\precsim$</code></td>
+<td align="center">$\succsim$</td>
+<td align="center"><code>$\succsim$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\precapprox$</td>
+<td align="center"><code>$\precapprox$</code></td>
+<td align="center">$\succapprox$</td>
+<td align="center"><code>$\succapprox$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\vartriangleleft$</td>
+<td align="center"><code>$\vartriangleleft$</code></td>
+<td align="center">$\vartriangleright$</td>
+<td align="center"><code>$\vartriangleright$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\trianglelefteq$</td>
+<td align="center"><code>$\trianglelefteq$</code></td>
+<td align="center">$\trianglerighteq$</td>
+<td align="center"><code>$\trianglerighteq$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\vDash$</td>
+<td align="center"><code>$\vDash$</code></td>
+<td align="center">$\Vdash$</td>
+<td align="center"><code>$\Vdash$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\Vvdash$</td>
+<td align="center"><code>$\Vvdash$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\smallsmile$</td>
+<td align="center"><code>$\smallsmile$</code></td>
+<td align="center">$\shortmid$</td>
+<td align="center"><code>$\shortmid$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\smallfrown$</td>
+<td align="center"><code>$\smallfrown$</code></td>
+<td align="center">$\shortparallel$</td>
+<td align="center"><code>$\shortparallel$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\bumpeq$</td>
+<td align="center"><code>$\bumpeq$</code></td>
+<td align="center">$\between$</td>
+<td align="center"><code>$\between$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\Bumpeq$</td>
+<td align="center"><code>$\Bumpeq$</code></td>
+<td align="center">$\pitchfork$</td>
+<td align="center"><code>$\pitchfork$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\varpropto$</td>
+<td align="center"><code>$\varpropto$</code></td>
+<td align="center">$\backepsilon$</td>
+<td align="center"><code>$\backepsilon$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\blacktriangleleft$</td>
+<td align="center"><code>$\blacktriangleleft$</code></td>
+<td align="center">$\blacktriangleright$</td>
+<td align="center"><code>$\blacktriangleright$</code></td>
+</tr>
+
+<tr>
+<td align="center">二元关系</td>
+<td align="center">$\therefore$</td>
+<td align="center"><code>$\therefore$</code></td>
+<td align="center">$\because$</td>
+<td align="center"><code>$\because$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\nless$</td>
+<td align="center"><code>$\nless$</code></td>
+<td align="center">$\ngtr$</td>
+<td align="center"><code>$\ngtr$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\nleq$</td>
+<td align="center"><code>$\nleq$</code></td>
+<td align="center">$\ngeq$</td>
+<td align="center"><code>$\ngeq$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\nleqslant$</td>
+<td align="center"><code>$\nleqslant$</code></td>
+<td align="center">$\ngeqslant$</td>
+<td align="center"><code>$\ngeqslant$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\nleqq$</td>
+<td align="center"><code>$\nleqq$</code></td>
+<td align="center">$\ngeqq$</td>
+<td align="center"><code>$\ngeqq$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\lneq$</td>
+<td align="center"><code>$\lneq$</code></td>
+<td align="center">$\gneq$</td>
+<td align="center"><code>$\gneq$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\lneqq$</td>
+<td align="center"><code>$\lneqq$</code></td>
+<td align="center">$\gneqq$</td>
+<td align="center"><code>$\gneqq$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\lvertneqq$</td>
+<td align="center"><code>$\lvertneqq$</code></td>
+<td align="center">$\gvertneqq$</td>
+<td align="center"><code>$\gvertneqq$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\lnsim$</td>
+<td align="center"><code>$\lnsim$</code></td>
+<td align="center">$\gnsim$</td>
+<td align="center"><code>$\gnsim$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\lnapprox$</td>
+<td align="center"><code>$\lnapprox$</code></td>
+<td align="center">$\gnapprox$</td>
+<td align="center"><code>$\gnapprox$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\nprec$</td>
+<td align="center"><code>$\nprec$</code></td>
+<td align="center">$\nsucc$</td>
+<td align="center"><code>$\nsucc$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\npreceq$</td>
+<td align="center"><code>$\npreceq$</code></td>
+<td align="center">$\nsucceq$</td>
+<td align="center"><code>$\nsucceq$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\precneqq$</td>
+<td align="center"><code>$\precneqq$</code></td>
+<td align="center">$\succneqq$</td>
+<td align="center"><code>$\succneqq$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\precnsim$</td>
+<td align="center"><code>$\precnsim$</code></td>
+<td align="center">$\succnsim$</td>
+<td align="center"><code>$\succnsim$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\precnapprox$</td>
+<td align="center"><code>$\precnapprox$</code></td>
+<td align="center">$\succnapprox$</td>
+<td align="center"><code>$\succnapprox$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\nsim$</td>
+<td align="center"><code>$\nsim$</code></td>
+<td align="center">$\ncong$</td>
+<td align="center"><code>$\ncong$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\nshortmid$</td>
+<td align="center"><code>$\nshortmid$</code></td>
+<td align="center">$\nshortparallel$</td>
+<td align="center"><code>$\nshortparallel$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\nmid$</td>
+<td align="center"><code>$\nmid$</code></td>
+<td align="center">$\nparallel$</td>
+<td align="center"><code>$\nparallel$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\nvdash$</td>
+<td align="center"><code>$\nvdash$</code></td>
+<td align="center">$\nvDash$</td>
+<td align="center"><code>$\nvDash$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\nVdash$</td>
+<td align="center"><code>$\nVdash$</code></td>
+<td align="center">$\nVDash$</td>
+<td align="center"><code>$\nVDash$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\ntriangleleft$</td>
+<td align="center"><code>$\ntriangleleft$</code></td>
+<td align="center">$\ntriangleright$</td>
+<td align="center"><code>$\ntriangleright$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\ntrianglelefteq$</td>
+<td align="center"><code>$\ntrianglelefteq$</code></td>
+<td align="center">$\ntrianglerighteq$</td>
+<td align="center"><code>$\ntrianglerighteq$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\nsubseteq$</td>
+<td align="center"><code>$\nsubseteq$</code></td>
+<td align="center">$\nsupseteq$</td>
+<td align="center"><code>$\nsupseteq$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\nsubseteqq$</td>
+<td align="center"><code>$\nsubseteqq$</code></td>
+<td align="center">$\nsupseteqq$</td>
+<td align="center"><code>$\nsupseteqq$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\subsetneq$</td>
+<td align="center"><code>$\subsetneq$</code></td>
+<td align="center">$\supsetneq$</td>
+<td align="center"><code>$\supsetneq$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\varsubsetneq$</td>
+<td align="center"><code>$\varsubsetneq$</code></td>
+<td align="center">$\varsupsetneq$</td>
+<td align="center"><code>$\varsupsetneq$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\subsetneqq$</td>
+<td align="center"><code>$\subsetneqq$</code></td>
+<td align="center">$\supsetneqq$</td>
+<td align="center"><code>$\supsetneqq$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定关系</td>
+<td align="center">$\varsubsetneqq$</td>
+<td align="center"><code>$\varsubsetneqq$</code></td>
+<td align="center">$\varsupsetneqq$</td>
+<td align="center"><code>$\varsupsetneqq$</code></td>
+</tr>
+
+<tr>
+<td align="center">箭头</td>
+<td align="center">$\leftleftarrows$</td>
+<td align="center"><code>$\leftleftarrows$</code></td>
+<td align="center">$\rightrightarrows$</td>
+<td align="center"><code>$\rightrightarrows$</code></td>
+</tr>
+
+<tr>
+<td align="center">箭头</td>
+<td align="center">$\leftrightarrows$</td>
+<td align="center"><code>$\leftrightarrows$</code></td>
+<td align="center">$\rightleftarrows$</td>
+<td align="center"><code>$\rightleftarrows$</code></td>
+</tr>
+
+<tr>
+<td align="center">箭头</td>
+<td align="center">$\Lleftarrow$</td>
+<td align="center"><code>$\Lleftarrow$</code></td>
+<td align="center">$\Rrightarrow$</td>
+<td align="center"><code>$\Rrightarrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">箭头</td>
+<td align="center">$\twoheadleftarrow$</td>
+<td align="center"><code>$\twoheadleftarrow$</code></td>
+<td align="center">$\twoheadrightarrow$</td>
+<td align="center"><code>$\twoheadrightarrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">箭头</td>
+<td align="center">$\leftarrowtail$</td>
+<td align="center"><code>$\leftarrowtail$</code></td>
+<td align="center">$\rightarrowtail$</td>
+<td align="center"><code>$\rightarrowtail$</code></td>
+</tr>
+
+<tr>
+<td align="center">箭头</td>
+<td align="center">$\looparrowleft$</td>
+<td align="center"><code>$\looparrowleft$</code></td>
+<td align="center">$\looparrowright$</td>
+<td align="center"><code>$\looparrowright$</code></td>
+</tr>
+
+<tr>
+<td align="center">箭头</td>
+<td align="center">$\leftrightharpoons$</td>
+<td align="center"><code>$\leftrightharpoons$</code></td>
+<td align="center">$\rightleftharpoons$</td>
+<td align="center"><code>$\rightleftharpoons$</code></td>
+</tr>
+
+<tr>
+<td align="center">箭头</td>
+<td align="center">$\curvearrowleft$</td>
+<td align="center"><code>$\curvearrowleft$</code></td>
+<td align="center">$\curvearrowright$</td>
+<td align="center"><code>$\curvearrowright$</code></td>
+</tr>
+
+<tr>
+<td align="center">箭头</td>
+<td align="center">$\circlearrowleft$</td>
+<td align="center"><code>$\circlearrowleft$</code></td>
+<td align="center">$\circlearrowright$</td>
+<td align="center"><code>$\circlearrowright$</code></td>
+</tr>
+
+<tr>
+<td align="center">箭头</td>
+<td align="center">$\Lsh$</td>
+<td align="center"><code>$\Lsh$</code></td>
+<td align="center">$\Rsh$</td>
+<td align="center"><code>$\Rsh$</code></td>
+</tr>
+
+<tr>
+<td align="center">箭头</td>
+<td align="center">$\upuparrows$</td>
+<td align="center"><code>$\upuparrows$</code></td>
+<td align="center">$\downdownarrows$</td>
+<td align="center"><code>$\downdownarrows$</code></td>
+</tr>
+
+<tr>
+<td align="center">箭头</td>
+<td align="center">$\upharpoonleft$</td>
+<td align="center"><code>$\upharpoonleft$</code></td>
+<td align="center">$\upharpoonright, \restriction$</td>
+<td align="center"><code>$\upharpoonright, \restriction$</code></td>
+</tr>
+
+<tr>
+<td align="center">箭头</td>
+<td align="center">$\downharpoonleft$</td>
+<td align="center"><code>$\downharpoonleft$</code></td>
+<td align="center">$\downharpoonright$</td>
+<td align="center"><code>$\downharpoonright$</code></td>
+</tr>
+
+<tr>
+<td align="center">箭头</td>
+<td align="center">$\multimap$</td>
+<td align="center"><code>$\multimap$</code></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+
+<tr>
+<td align="center">箭头</td>
+<td align="center">$\leftrightsquigarrow$</td>
+<td align="center"><code>$\leftrightsquigarrow$</code></td>
+<td align="center">$\rightsquigarrow$</td>
+<td align="center"><code>$\rightsquigarrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定箭头</td>
+<td align="center">$\nleftarrow$</td>
+<td align="center"><code>$\nleftarrow$</code></td>
+<td align="center">$\nrightarrow$</td>
+<td align="center"><code>$\nrightarrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定箭头</td>
+<td align="center">$\nLeftarrow$</td>
+<td align="center"><code>$\nLeftarrow$</code></td>
+<td align="center">$\nRightarrow$</td>
+<td align="center"><code>$\nRightarrow$</code></td>
+</tr>
+
+<tr>
+<td align="center">否定箭头</td>
+<td align="center">$\nleftrightarrow$</td>
+<td align="center"><code>$\nleftrightarrow$</code></td>
+<td align="center">$\nLeftrightarrow$</td>
+<td align="center"><code>$\nLeftrightarrow$</code></td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="参考资料">参考资料</h2>
+
+<ol>
+<li><a href="https://en.wikipedia.org/wiki/Markdown">Markdown wikipedia</a></li>
+<li><a href="https://daringfireball.net/projects/markdown/syntax">Markdown 语法手册</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Category:Mathematical_symbols">Category:Mathematical symbols</a></li>
+</ol>
+
+    </div>
+
+    
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">Messiah</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">2017-06-30</span>
+  </p>
+  
+  
+</div>
+
+    
+    
+<div class="post-reward">
+  <input type="checkbox" name="reward" id="reward" hidden />
+  <label class="reward-button" for="reward">Reward</label>
+  <div class="qr-code">
+    
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/img/reward/wechat0.png">
+        <span>wechat</span>
+      </label>
+    
+      <label class="qr-code-image" for="reward">
+        <img class="image" src="/img/reward/alipay0.png">
+        <span>alipay</span>
+      </label>
+  </div>
+</div>
+
+    <footer class="post-footer">
+      <div class="post-tags">
+          
+          <a href="/tags/markdown/">Markdown</a>
+          
+          <a href="/tags/syntax/">Syntax</a>
+          
+        </div>
+
+      
+      <nav class="post-nav">
+        
+          <a class="prev" href="/post/chinese-preview/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">[中文] 《长恨歌》</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+          <a class="next" href="/post/syntax-markdown/">
+            <span class="next-text nav-default">Syntax-Markdown</span>
+            <span class="prev-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+  <div id="disqus_thread"></div>
+    <script type="text/javascript">
+    (function() {
+      
+      
+      if (window.location.hostname === 'localhost') return;
+
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      var disqus_shortname = 'imzmx-1';
+      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:zmxiam@gmail.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://stackoverflow.com/users/8437464/messiah" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
+      <a href="https://twitter.com/zhangmengxin188" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://www.facebook.com/zhang.mengxin.16" class="iconfont icon-facebook" title="facebook"></a>
+      <a href="http://www.linkedin.com/in/mengxin-zhang-788766b4" class="iconfont icon-linkedin" title="linkedin"></a>
+      <a href="https://plus.google.com/u/1/109786624352426899645" class="iconfont icon-google" title="google"></a>
+      <a href="https://github.com/imzhangmengxin" class="iconfont icon-github" title="github"></a>
+      <a href="https://weibo.com/u/6071436038" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com/people/bemessiah" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://www.douban.com/people/44302274" class="iconfont icon-douban" title="douban"></a>
+      <a href="https://getpocket.com/@89dp1T84Abs6dd5fR1g197fg25d0AyPQ507a7aB67dj97dZa668a3Ka6y30zKYOY" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="https://www.tumblr.com/blog/messiah163" class="iconfont icon-tumblr" title="tumblr"></a>
+      <a href="https://www.instagram.com/messiah163/" class="iconfont icon-instagram" title="instagram"></a>
+  <a href="http://www.imzmx.win/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="power-by">
+    Theme - 
+    <a class="theme-link" href="https://www.imzmx.win">Evenme</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> site pv: <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+    <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> site uv: <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    
+      2015 - 
+    2018
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">ZMX</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script><script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.min.js?v=3.1.1"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      TeX: {equationNumbers: {autoNumber: "AMS"}},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-98206095-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+
+
+
+
+</body>
+</html>
