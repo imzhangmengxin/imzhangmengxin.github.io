@@ -1,8 +1,8 @@
 ---
 title: "Syntax-Markdown"
-date: 2017-03-04T21:57:45+08:00
-lastmod: 2017-09-30T01:37:56+08:00
-update: 2018-01-10T07:37:56+08:00
+date: 2015-03-12T21:57:45+08:00
+lastmod: 2015-09-20T01:37:56+08:00
+update: 2016-01-12T07:37:56+08:00
 draft: false
 tags: ["Markdown","Syntax"]
 categories: ["Documents"]
@@ -101,9 +101,9 @@ CSS
 
 ## 4. 引用 {#section-05}
 
-> 苟日新，日日新，又日新。
+> We are made of star-stuff 
 >
-> <cite>-- 商成汤《盘铭》</cite>
+> <cite>-- **_The Cosmic Connection: An Extraterrestrial Perspective_** by [Carl Sagan](https://en.wikipedia.org/wiki/Carl_Sagan)</cite>
 
 ## 5. 代码
 
@@ -147,7 +147,7 @@ def triangles():
 
 ## 9. 数学公式
 
-主题使用了 [MathJax](https://www.mathjax.org/) 开源库来实现对数学公式的支持，使用 `$$` 标记。
+主题使用了基于$\LaTeX$ ,$\TeX$的 [MathJax](https://www.mathjax.org/) 开源库来实现对数学公式的支持，使用 `$$` 标记。
 
 $$ \sum_{i=1}^n \frac{1}{i^2} $$
 
@@ -155,13 +155,85 @@ $$ \sum_{i=1}^n \frac{1}{i^2} $$
 
 主题文章中可以轻松插入 [网易云音乐](https://music.163.com/) 的指定音乐，你可以根据需要将音乐设置为自动播放，在主题目录 `layouts/shortcodes` 文件夹下的 `music.html` 对该标签进行定义。
 
-{{% music "26883589" %}}
+{{% music "553253506" %}}
+
+🎵Hello darkness, my old friend,
+
+I've come to talk with you again,
+
+Because a vision softly creeping,
+
+Left its seeds while I was sleeping,
+
+And the vision that was planted in my brain
+
+Still remains
+
+Within the sound of silence.
+
+In restless dreams I walk alone
+
+Narrow streets of cobblestone,
+
+'Neath the halo of a street lamp,
+
+I turned my collar to the cold and damp
+
+When my eyes were stabbed by the flash of a neon light
+
+That split the night
+
+And touched the sound of silence.
+
+And in the naked light I saw
+
+Ten thousand people, maybe more.
+
+People talking without speaking,
+
+People hearing without listening,
+
+People writing songs that voices never share
+
+And no one dared
+
+Disturb the sound of silence.
+
+"Fools" said I,"You do not know
+
+Silence like a cancer grows.
+
+Hear my words that I might teach you,
+
+Take my arms that I might reach you."
+
+But my words like silent raindrops fell,
+
+And echoed
+
+In the wells of silence
+
+And the people bowed and prayed
+
+To the neon god they made.
+
+And the sign flashed out its warning,
+
+In the words that it was forming.
+
+And the signs said, 'The words of the prophets are written on the subway walls
+
+And tenement halls.
+
+And whisper'd in the sounds of silence.🎵
+
+
 
 ## 11. YouTube
 
 由于不明原因可能无法播放。
 
-{{% youtube "zz-H7G3Zi5c" %}}
+{{% youtube "GoW8Tf7hTGA" %}}
 
 
 

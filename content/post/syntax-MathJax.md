@@ -1,8 +1,8 @@
 ---
 title: "Syntax-MathJax"
-date: 2017-03-14T21:57:45+08:00
-lastmod: 2017-06-30T01:37:56+08:00
-update: 2018-02-10T07:37:56+08:00
+date: 2015-03-14T21:57:45+08:00
+lastmod: 2015-06-30T01:37:56+08:00
+update: 2016-02-10T07:37:56+08:00
 draft: false
 tags: ["Markdown","Syntax"]
 categories: ["Documents"]
@@ -30,7 +30,7 @@ hiddenFromHomePage: false
 |$\mu$	|`$\mu$`	|	|| $M$ |`$M$`|
 |$\nu$	|`$\nu$`	|	|| $N$ |`$N$`|
 |$\xi$	|`$\xi$`	|$\Xi$	|`$\Xi$`|	||
-|$o$	|`$o$`	|$\O$	|`$\O$`|$O$|`$O$`|
+|$o$	|`$o$`	|	||$O$|`$O$`|
 |$\pi$	|`$\pi$`	|$\Pi$	|`$\Pi$`|	||
 |$\varpi$	|`$\varpi$`	|	||	||
 |$\rho$	|`$\rho$`	|	|| $P$ |`$P$`|
@@ -321,3 +321,5 @@ hiddenFromHomePage: false
 1. [Markdown wikipedia](https://en.wikipedia.org/wiki/Markdown)
 2. [Markdown 语法手册](https://daringfireball.net/projects/markdown/syntax)
 3. [Category:Mathematical symbols](https://en.wikipedia.org/wiki/Category:Mathematical_symbols)
+4. [Wikipedia:$\LaTeX$](https://en.wikipedia.org/wiki/LaTeX)
+5. [Wikipedia:$\TeX$](https://en.wikipedia.org/wiki/TeX)
