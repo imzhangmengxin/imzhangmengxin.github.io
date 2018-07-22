@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>算法 on imzmx - A blog for messiah who committed to data engineering related work</title>
+    <link>http://www.imzmx.win/tags/%E7%AE%97%E6%B3%95/</link>
+    <description>Recent content in 算法 on imzmx - A blog for messiah who committed to data engineering related work</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>ZMX</copyright>
+    <lastBuildDate>Wed, 21 Oct 2015 21:57:45 +0800</lastBuildDate>
+    
+	<atom:link href="http://www.imzmx.win/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>身份证校验算法</title>
+      <link>http://www.imzmx.win/post/%E8%BA%AB%E4%BB%BD%E8%AF%81%E6%A0%A1%E9%AA%8C%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Wed, 21 Oct 2015 21:57:45 +0800</pubDate>
+      
+      <guid>http://www.imzmx.win/post/%E8%BA%AB%E4%BB%BD%E8%AF%81%E6%A0%A1%E9%AA%8C%E7%AE%97%E6%B3%95/</guid>
+      <description>位置序号 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 加权因子 7 9 10 5 8 4 2 1 6 3 7 9 10 5 8 4 2</description>
+    </item>
+    
+  </channel>
+</rss>

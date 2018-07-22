@@ -21,5 +21,14 @@
       <description>在集合论和数学的其他分支中，存在补集的两种定义：相对补集和绝对补集。 相对补集 若$A$和$B$是集合则$A$在$B$中的相对补集是由所有属于$</description>
     </item>
     
+    <item>
+      <title>身份证校验算法</title>
+      <link>http://www.imzmx.win/post/%E8%BA%AB%E4%BB%BD%E8%AF%81%E6%A0%A1%E9%AA%8C%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Wed, 21 Oct 2015 21:57:45 +0800</pubDate>
+      
+      <guid>http://www.imzmx.win/post/%E8%BA%AB%E4%BB%BD%E8%AF%81%E6%A0%A1%E9%AA%8C%E7%AE%97%E6%B3%95/</guid>
+      <description>位置序号 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 加权因子 7 9 10 5 8 4 2 1 6 3 7 9 10 5 8 4 2</description>
+    </item>
+    
   </channel>
 </rss>

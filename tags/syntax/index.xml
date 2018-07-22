@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>ZMX</copyright>
-    <lastBuildDate>Tue, 14 Mar 2017 21:57:45 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2015 21:57:45 +0800</lastBuildDate>
     
 	<atom:link href="http://www.imzmx.win/tags/syntax/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Syntax-MathJax</title>
       <link>http://www.imzmx.win/post/syntax-mathjax/</link>
-      <pubDate>Tue, 14 Mar 2017 21:57:45 +0800</pubDate>
+      <pubDate>Sat, 14 Mar 2015 21:57:45 +0800</pubDate>
       
       <guid>http://www.imzmx.win/post/syntax-mathjax/</guid>
       <description>1.希腊字母 Greek letters MathJax-syntax Greek letters MathJax-syntax Latin letters MathJax-syntax $\alpha$ $\alpha$ $A$ $A$ $\beta$ $\beta$ $B$ $B$ $\gamma$ $\gamma$ $\Gamma$ $\Gamma$ $\delta$ $\delta$ $\Delta$ $\Delta$ $\epsilon$ $\epsilon$ $E$ $E$ $\varepsilon$ $\varepsilon$ $\zeta$ $\zeta$ $Z$ $Z$ $\eta$ $\eta$ $H$ $H$ $\theta$ $\theta$ $\Theta$ $\Theta$ $\vartheta$ $\vartheta$ $\iota$ $\iota$ $I$ $I$ $\kappa$ $\kappa$ $K$ $K$ $\lambda$ $\lambda$ $\Lambda$ $\Lambda$ $\mu$ $\mu$ $M$ $M$ $\nu$ $\nu$ $N$</description>
@@ -24,7 +24,7 @@
     <item>
       <title>Syntax-Markdown</title>
       <link>http://www.imzmx.win/post/syntax-markdown/</link>
-      <pubDate>Sat, 04 Mar 2017 21:57:45 +0800</pubDate>
+      <pubDate>Thu, 12 Mar 2015 21:57:45 +0800</pubDate>
       
       <guid>http://www.imzmx.win/post/syntax-markdown/</guid>
       <description>1.标题 H1 H2 H3 H4 H5 H6 2. 段落 使用单星号 * 或者单下划线 _ 标记 斜体强调 或者 斜体强调 使用两个星号 ** 或者两个下划线 __ 标记 加粗强调 或者 加粗强调 引号和下划</description>

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>ZMX</copyright>
-    <lastBuildDate>Sat, 04 Mar 2017 21:57:45 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 21 Sep 2016 21:57:45 +0800</lastBuildDate>
     
 	<atom:link href="http://www.imzmx.win/tags/%E6%9E%B6%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>数仓模型</title>
       <link>http://www.imzmx.win/post/qnz_data_uml/</link>
-      <pubDate>Sat, 04 Mar 2017 21:57:45 +0800</pubDate>
+      <pubDate>Wed, 21 Sep 2016 21:57:45 +0800</pubDate>
       
       <guid>http://www.imzmx.win/post/qnz_data_uml/</guid>
       <description>一元结构 title: 一元架构 participant 生产库 as A note left of A :数据实时,查询压力大 A-&amp;gt;A :结果表计算完成ETL过程 二元结构 title:二元架构 participant 线上库 as A participant 离线库 as B</description>
